@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.mainpage {
+  display: block;
+  width: auto;
+  height: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+ }
+
+ .page {
+   width: auto;
+   height: 33.3%;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid red;
+  }
+
+@media only screen and (max-width: 375px) {
+
+  .mainpage {
+    display: block;
+    width: auto;
+    height: 2668px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+   }
+
+   .page {
+     width: auto;
+     margin-left: auto;
+     margin-right: auto;
+     border: 1px solid red;
+    }
+
+
+  .dragon {
+    width: 33%;
+    height: 100%;
+    border: 1px solid green;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+  }
+
+  .dragonhead {
+    width: 30%;
+    height: 30%;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
+  .dragonbody {
+
+  }
+
+
+  .pageone {
+
+  }
+
+  .pagetwo {
+
+  }
+
+  .pagethree {
+
+  }
+}
