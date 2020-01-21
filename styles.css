@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background: linear-gradient(#FFFFFF, #BDBDBD);
 }
 
 .mainpage {
@@ -57,15 +57,61 @@ body {
   .dragonhead {
     width: 30%;
     height: 30%;
+    background: url('dragonheadtwo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
     border: 2px solid black;
     position: fixed;
-    bottom: 0;
+    bottom: auto;
     right: 0;
   }
 
   .dragonbody {
+    width: auto;
+    height: 60%;
+    border: 3px solid grey;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .bodyscale {
+    background-color: black;
+    border: 1px solid black;
+    height: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .bodyscaleone {
+    margin-left: 8px;
+  }
+  .bodyscaletwo {
+    margin-left: 13px;
+  }
+  .bodyscalethree {
+    margin-left: 21px;
 
   }
+  .bodyscalefour {
+    margin-left: 13px;
+
+  }
+  .bodyscalefive {
+    margin-left: 8px;
+
+  }
+  .bodyscalesix {
+    margin-left: 13px;
+
+  }
+  .bodyscalethirty {
+    margin-left: 80px;
+  }
+
+
 
 
   .pageone {
