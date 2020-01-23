@@ -11,10 +11,10 @@ body {
 .mainpage {
   display: block;
   width: auto;
-  height: 2000px;
+  height: 2668px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
+  border: 1px solid transparent;
  }
 
  .page {
@@ -22,7 +22,7 @@ body {
    height: 33.3%;
    margin-left: auto;
    margin-right: auto;
-   border: 1px solid red;
+   border: 1px solid transparent;
   }
 
 @media only screen and (max-width: 375px) {
@@ -70,7 +70,7 @@ body {
   .dragonbody {
     width: auto;
     height: 70%;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
   }
 
   .dragonpaw {
