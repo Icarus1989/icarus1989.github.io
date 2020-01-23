@@ -40,14 +40,14 @@ body {
      width: auto;
      margin-left: auto;
      margin-right: auto;
-     border: 1px solid red;
+     border: 1px solid transparent;
     }
 
 
   .dragon {
     width: 33%;
     height: 100%;
-    border: 1px solid green;
+    border: 1px solid transparent;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -57,20 +57,32 @@ body {
   .dragonhead {
     width: 30%;
     height: 30%;
-    background: url('dragonheadtwo.png');
-    background-size: contain;
+    background: url('DragonHeadDefinitive.svg');
+    background-size: 200%;
     background-repeat: no-repeat;
-    background-position: right;
-    border: 2px solid black;
+    background-position: 50% 60%;
+    border: 1px solid transparent;
     position: fixed;
-    bottom: auto;
+    bottom: 0;
     right: 0;
   }
 
   .dragonbody {
     width: auto;
-    height: 60%;
-    border: 3px solid grey;
+    height: 70%;
+    border: 2px solid transparent;
+  }
+
+  .dragonpaw {
+    width: 50%;
+    height: 10%;
+    border: 1px solid transparent;
+    background: url('DragonPaw.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: 30%;
   }
 
   ul {
@@ -80,35 +92,141 @@ body {
   .bodyscale {
     background-color: black;
     border: 1px solid black;
-    height: 10px;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    height: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
   }
 
   .bodyscaleone {
-    margin-left: 8px;
+    margin-left: 100px;
+    margin-right: 10px;
   }
   .bodyscaletwo {
-    margin-left: 13px;
+    margin-left: 100px;
+    margin-right: 7px;
   }
   .bodyscalethree {
-    margin-left: 21px;
+    margin-left: 101px;
+    margin-right: 5px;
 
   }
   .bodyscalefour {
-    margin-left: 13px;
+    margin-left: 101px;
+    margin-right: 2px;
 
   }
   .bodyscalefive {
-    margin-left: 8px;
+    margin-left: 99px;
 
   }
   .bodyscalesix {
-    margin-left: 13px;
-
+    margin-left: 97px;
+  }
+  .bodyscaleseven {
+    margin-left: 92px;
+  }
+  .bodyscaleeight {
+    margin-left: 87px;
+  }
+  .bodyscalenine {
+    margin-left: 82px;
+  }
+  .bodyscaleten {
+    margin-left: 77px;
+    margin-right: 2px;
+  }
+  .bodyscaleeleven {
+    margin-left: 73px;
+    margin-right: 5px;
+  }
+  .bodyscaletwelve {
+    margin-left: 70px;
+    margin-right: 8px;
+  }
+  .bodyscalethirteen {
+    margin-left: 66px;
+    margin-right: 10px;
+  }
+  .bodyscalefourteen {
+    margin-left: 66px;
+    margin-right: 8px;
+  }
+  .bodyscalefifteen {
+    margin-left: 70px;
+    margin-right: 6px;
+  }
+  .bodyscalesixteen {
+    margin-left: 74px;
+    margin-right: 3px;
+  }
+  .bodyscaleseventeen {
+    margin-left: 78px;
+  }
+  .bodyscaleeighteen {
+    margin-left: 80px;
+  }
+  .bodyscalenineteen {
+    margin-left: 80px;
+  }
+  .bodyscaletwenty {
+    margin-left: 78px;
+  }
+  .bodyscaletwentyone {
+    margin-left: 74px;
+  }
+  .bodyscaletwentytwo {
+    margin-left: 70px;
+    margin-right: 3px;
+  }
+  .bodyscaletwentythree {
+    margin-left: 64px;
+    margin-right: 7px;
+  }
+  .bodyscaletwentyfour {
+    margin-left: 58px;
+    margin-right: 13px;
+  }
+  .bodyscaletwentyfive {
+    margin-left: 52px;
+    margin-right: 18px;
+  }
+  .bodyscaletwentysix {
+    margin-left: 46px;
+    margin-right: 22px;
+  }
+  .bodyscaletwentyseven {
+    margin-left: 44px;
+    margin-right: 24px;
+  }
+  .bodyscaletwentyeight {
+    margin-left: 44px;
+    margin-right: 24px;
+  }
+  .bodyscaletwentynine {
+    margin-left: 46px;
+    margin-right: 20px;
   }
   .bodyscalethirty {
-    margin-left: 80px;
+    margin-left: 50px;
+    margin-right: 16px;
+  }
+  .bodyscalethirtyone {
+    margin-left: 56px;
+    margin-right: 10px;
+  }
+  .bodyscalethirtytwo {
+    margin-left: 62px;
+    margin-right: 5px;
+  }
+  .bodyscalethirtythree {
+    margin-left: 69px;
+    margin-right: 1px;
+  }
+  .bodyscalethirtyfour {
+    margin-left: 75px;
+  }
+  .bodyscalethirtyfive {
+    margin-left: 82px;
   }
 
 
