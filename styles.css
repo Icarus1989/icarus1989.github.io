@@ -112,61 +112,242 @@ body {
   .bodyscaleone {
     margin-left: 100px;
     margin-right: 10px;
+    animation: 4s ease 4s infinite movescaleone;
+  }
+  @keyframes movescaleone {
+    0% {margin-left: 100px;
+        margin-right: 10px;}
+    33% {margin-left: 92px;
+         margin-right: 18px;}
+    66% {margin-left: 110px;
+         margin-right: 2px;}
+    100% {margin-left: 100px;
+          margin-right: 10px;}
   }
   .bodyscaletwo {
     margin-left: 100px;
     margin-right: 7px;
+    animation: 4s ease 4s infinite movescaletwo;
   }
+  @keyframes movescaletwo {
+    0% {margin-left: 100px;
+        margin-right: 7px;}
+    33% {margin-left: 92px;
+         margin-right: 15px;}
+    66% {margin-left: 108px;
+         margin-right: 1px;}
+    100% {margin-left: 100px;
+          margin-right: 7px;}
+  }
+
   .bodyscalethree {
     margin-left: 101px;
     margin-right: 5px;
-
+    animation: 4s ease 4s infinite movescalethree;
   }
+  @keyframes movescalethree {
+    0% {margin-left: 101px;
+        margin-right: 5px;}
+    33% {margin-left: 93px;
+         margin-right: 13px;}
+    66% {margin-left: 107px;
+         margin-right: 1px;}
+    100% {margin-left: 101px;
+          margin-right: 5px;}
+  }
+
   .bodyscalefour {
     margin-left: 101px;
     margin-right: 2px;
-
+    animation: 4s ease 4s infinite movescalefour;
   }
+  @keyframes movescalefour {
+    0% {margin-left: 101px;
+        margin-right: 2px;}
+    33% {margin-left: 95px;
+         margin-right: 8px;}
+    66% {margin-left: 106px;
+         margin-right: 1px;}
+    100% {margin-left: 101px;
+          margin-right: 2px;}
+  }
+
   .bodyscalefive {
     margin-left: 99px;
-
+    margin-right: 1px;
+    animation: 4s ease 4s infinite movescalefive;
   }
+  @keyframes movescalefive {
+    0% {margin-left: 99px;}
+    33% {margin-left: 95px;
+         margin-right: 5px; }
+    66% {margin-left: 103px;
+         margin-right: 1px;}
+    100% {margin-left: 99px;}
+  }
+
   .bodyscalesix {
     margin-left: 97px;
+    margin-right: 1px;
+    animation: 4s ease 4s infinite movescalesix;
   }
+
+  @keyframes movescalesix {
+    0% {margin-left: 97px;}
+    33% {margin-left: 96px;
+         margin-right: 2px; }
+    66% {margin-left: 98px;
+         margin-right: 1px;}
+    100% {margin-left: 97px;}
+  }
+
   .bodyscaleseven {
     margin-left: 92px;
+    margin-right: 1px;
+    animation: 4s ease 4s infinite movescaleseven;
   }
+
+  @keyframes movescaleseven {
+    0% {margin-left: 92px;}
+    33% {margin-left: 94px;
+         margin-right: 1px; }
+    66% {margin-left: 90px;
+         margin-right: 6px;}
+    100% {margin-left: 92px;}
+  }
+
   .bodyscaleeight {
     margin-left: 87px;
+    margin-right: 1px;
+    animation: 4s ease 4s infinite movescaleeight;
   }
+
+  @keyframes movescaleeight {
+    0% {margin-left: 87px;}
+    33% {margin-left: 91px;
+         margin-right: 1px; }
+    66% {margin-left: 83px;
+         margin-right: 8px;}
+    100% {margin-left: 87px;}
+  }
+
   .bodyscalenine {
     margin-left: 82px;
+    margin-right: 1px;
+    animation: 4s ease 4s infinite movescalenine;
   }
+
+  @keyframes movescalenine {
+    0% {margin-left: 82px;}
+    33% {margin-left: 88px;
+         margin-right: 1px; }
+    66% {margin-left: 76px;
+         margin-right: 12px;}
+    100% {margin-left: 82px;
+          margin-right: 1px;}
+  }
+
   .bodyscaleten {
     margin-left: 77px;
     margin-right: 2px;
+    animation: 4s ease 4s infinite movescaleten;
   }
+
+  @keyframes movescaleten {
+    0% {margin-left: 77px;
+        margin-right: 2px;}
+    33% {margin-left: 80px;
+         margin-right: 2px; }
+    66% {margin-left: 75px;
+         margin-right: 8px;}
+    100% {margin-left: 77px;}
+  }
+
   .bodyscaleeleven {
     margin-left: 73px;
     margin-right: 5px;
+    animation: 4s ease 4s infinite movescaleeleven;
   }
+
+  @keyframes movescaleeleven {
+    0% {margin-left: 73px;
+        margin-right: 5px;}
+    33% {margin-left: 70px;
+         margin-right: 8px;}
+    66% {margin-left: 80px;
+         margin-right: 4px;}
+    100% {margin-left: 73px;
+          margin-right: 5px;}
+  }
+
   .bodyscaletwelve {
     margin-left: 70px;
     margin-right: 8px;
+    animation: 4s ease 4s infinite movescaletwelve;
   }
+
+  @keyframes movescaletwelve {
+    0% {margin-left: 70px;
+        margin-right: 8px;}
+    33% {margin-left: 66px;
+         margin-right: 12px;}
+    66% {margin-left: 82px;
+         margin-right: 1px;}
+    100% {margin-left: 70px;
+          margin-right: 8px;}
+  }
+
   .bodyscalethirteen {
     margin-left: 66px;
     margin-right: 10px;
+    animation: 4s ease 4s infinite movescalethirteen;
   }
+
+  @keyframes movescalethirteen {
+    0% {margin-left: 66px;
+        margin-right: 10px;}
+    33% {margin-left: 63px;
+         margin-right: 13px;}
+    66% {margin-left: 86px;
+         margin-right: 1px;}
+    100% {margin-left: 66px;
+          margin-right: 10px;}
+  }
+
   .bodyscalefourteen {
     margin-left: 66px;
     margin-right: 8px;
+    animation: 4s ease 4s infinite movescalefourteen;
   }
+
+  @keyframes movescalefourteen {
+    0% {margin-left: 66px;
+        margin-right: 8px;}
+    33% {margin-left: 64px;
+         margin-right: 10px;}
+    66% {margin-left: 90px;
+         margin-right: 1px;}
+    100% {margin-left: 66px;
+          margin-right: 8px;}
+  }
+
   .bodyscalefifteen {
     margin-left: 70px;
     margin-right: 6px;
+    animation: 4s ease 4s infinite movescalefifteen;
   }
+
+  @keyframes movescalefifteen {
+    0% {margin-left: 70px;
+        margin-right: 6px;}
+    33% {margin-left: 68px;
+         margin-right: 8px;}
+    66% {margin-left: 90px;
+         margin-right: 3px;}
+    100% {margin-left: 70px;
+          margin-right: 6px;}
+  }
+
   .bodyscalesixteen {
     margin-left: 74px;
     margin-right: 3px;
