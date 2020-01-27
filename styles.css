@@ -103,7 +103,10 @@ body {
 
   .bodyscale {
     background-color: transparent;
-    border: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
     height: 7px;
     margin-top: 7px;
     margin-bottom: 7px;
@@ -208,11 +211,13 @@ body {
   }
 
   @keyframes movescaleseven {
-    0% {margin-left: 92px;}
-    33% {margin-left: 94px;
-         margin-right: 1px; }
-    66% {margin-left: 90px;
-         margin-right: 6px;}
+    0% {margin-left: 92px;
+        border-right: white;}
+    5% {border-right: black;}
+    30% {margin-left: 94px;
+         margin-right: 1px;}
+    60% {margin-left: 88px;
+         margin-right: 8px;}
     100% {margin-left: 92px;}
   }
 
@@ -223,11 +228,13 @@ body {
   }
 
   @keyframes movescaleeight {
-    0% {margin-left: 87px;}
+    0% {margin-left: 87px;
+        border-right: transparent;}
+    5% {border-right: black;}
     33% {margin-left: 91px;
-         margin-right: 1px; }
-    66% {margin-left: 83px;
-         margin-right: 8px;}
+         margin-right: 1px;}
+    66% {margin-left: 78px;
+         margin-right: 14px;}
     100% {margin-left: 87px;}
   }
 
@@ -238,11 +245,13 @@ body {
   }
 
   @keyframes movescalenine {
-    0% {margin-left: 82px;}
+    0% {margin-left: 82px;
+        border-right: transparent;}
+    5% {border-right: black;}
     33% {margin-left: 88px;
-         margin-right: 1px; }
-    66% {margin-left: 76px;
-         margin-right: 12px;}
+         margin-right: 1px;}
+    66% {margin-left: 70px;
+         margin-right: 18px;}
     100% {margin-left: 82px;
           margin-right: 1px;}
   }
@@ -255,11 +264,13 @@ body {
 
   @keyframes movescaleten {
     0% {margin-left: 77px;
-        margin-right: 2px;}
+        margin-right: 2px;
+        border-right: transparent;}
+    5% {border-right: black;}
     33% {margin-left: 80px;
-         margin-right: 2px; }
-    66% {margin-left: 75px;
-         margin-right: 8px;}
+         margin-right: 1px;}
+    66% {margin-left: 72px;
+         margin-right: 11px;}
     100% {margin-left: 77px;}
   }
 
@@ -275,7 +286,7 @@ body {
     33% {margin-left: 70px;
          margin-right: 8px;}
     66% {margin-left: 80px;
-         margin-right: 4px;}
+         margin-right: 2px;}
     100% {margin-left: 73px;
           margin-right: 5px;}
   }
@@ -293,6 +304,7 @@ body {
          margin-right: 12px;}
     66% {margin-left: 82px;
          margin-right: 1px;}
+    90% {border-right: green;}
     100% {margin-left: 70px;
           margin-right: 8px;}
   }
@@ -311,7 +323,8 @@ body {
     66% {margin-left: 86px;
          margin-right: 1px;}
     100% {margin-left: 66px;
-          margin-right: 10px;}
+          margin-right: 10px;
+          border-right: none;}
   }
 
   .bodyscalefourteen {
@@ -328,7 +341,8 @@ body {
     66% {margin-left: 90px;
          margin-right: 1px;}
     100% {margin-left: 66px;
-          margin-right: 8px;}
+          margin-right: 8px;
+          border-right: none;}
   }
 
   .bodyscalefifteen {
@@ -343,9 +357,10 @@ body {
     33% {margin-left: 68px;
          margin-right: 8px;}
     66% {margin-left: 90px;
-         margin-right: 3px;}
+         margin-right: 1px;}
     100% {margin-left: 70px;
-          margin-right: 6px;}
+          margin-right: 6px;
+          border-right: none;}
   }
 
   .bodyscalesixteen {
