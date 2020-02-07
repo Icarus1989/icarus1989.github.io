@@ -6,10 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link href='styles.css' style='text/css' rel='stylesheet'/>
   <script language="javascript" type="text/javascript" src="jquery-3.4.1.js"></script>
+  <script language="javascript" type="text/javascript" src="jquery.scrollify.js"></script>
   <script type="text/javascript" src='thescript.js'></script>
+  <script>
+  $(function() {
+          $.scrollify({
+            section : ".section",
+          });
+        });
+  </script>
 </head>
 <body>
-  <div class='mainpage'>
+  <div id='container'>
   <div class='dragon'>
     <div class='dragonbody'>
       <div class='dragonpaw'>
@@ -59,16 +67,16 @@
       <!--Simple Head Image static-->
     </div>
   </div>
-  <div class='page pageone'>
+  <div class='section pageone'>
       <div class='pageonephoto'>
       </div>
       <div class='pageonetext'>
       </div>
     </div>
-    <div class='page pagetwo'>
+    <div class='section pagetwo'>
     </div>
-    <div class='page pagethree'>
-    </div>
+    <div class='section pagethree'>
   </div>
+</div>
 </body>
 </html>

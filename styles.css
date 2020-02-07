@@ -5,49 +5,34 @@
 }
 
 body {
-  background: linear-gradient(#FFFFFF, #BDBDBD);
+
 }
 
-.mainpage {
-  display: block;
-  width: auto;
-  height: 2668px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid transparent;
- }
 
- .page {
-   width: auto;
-   height: 33.3%;
-   margin-left: auto;
-   margin-right: auto;
-   border: 1px solid transparent;
+
+
+@media only screen and (max-width: 400px) {
+
+  #container {
+    display: flex;
+    flex-wrap: wrap;
   }
 
-@media only screen and (max-width: 375px) {
 
-  .mainpage {
-    display: block;
-    width: auto;
-    height: 2668px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
+  .section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
-
-   .page {
-     width: auto;
-     margin-left: auto;
-     margin-right: auto;
-     border: 1px solid transparent;
-    }
 
 
   .dragon {
     width: 33%;
-    height: 100%;
-    border: 1px solid transparent;
+    height: 667px;
+    border: 1px solid white;
+    opacity: 0.9;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -55,22 +40,31 @@ body {
   }
 
   .dragonhead {
-    width: 30%;
-    height: 30%;
+    width: 112px;
+    height: 200px;
     background: url('DragonHeadDefinitive.svg');
     background-size: 200%;
     background-repeat: no-repeat;
     background-position: 50% 60%;
     border: 1px solid transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
     position: fixed;
     bottom: 0;
     right: 0;
+    color: white;
+    filter: invert(1) drop-shadow(1px 1px 1px black)
+                      drop-shadow(-1px 1px 1px black)
+                      drop-shadow(-5px 0 1.2em #EEEEEE);
   }
 
   .dragonbody {
     width: auto;
     height: 70%;
     border: 1px solid transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
   }
 
   .dragonpaw {
@@ -83,7 +77,10 @@ body {
     position: absolute;
     left: 21%;
     bottom: 31%;
-    animation: 4s ease 4s infinite movedragonpaw;
+    animation: 4s ease 2.5s infinite movedragonpaw;
+    filter: invert(1) drop-shadow(1px 1px 1px black)
+                      drop-shadow(-1px 1px 1px black)
+                      drop-shadow(-5px 0 1.2em #EEEEEE);
   }
 
   @keyframes movedragonpaw {
@@ -102,7 +99,10 @@ body {
     position: absolute;
     left: 21%;
     bottom: 67%;
-    animation: 4s ease 8s infinite movedragonpaw;
+    animation: 4s ease 7.5s infinite movedragonpaw;
+    filter: invert(1) drop-shadow(1px 1px 1px black)
+                      drop-shadow(-1px 1px 1px black)
+                      drop-shadow(-5px 0 1.2em #EEEEEE);
   }
 
   ul {
@@ -111,11 +111,12 @@ body {
 
   .bodyscale {
     background-color: transparent;
-    border-top: 2px solid black;
+    border-top: 2px solid white;
     border-right: 2px solid transparent;
-    border-bottom: 2px solid black;
-    border-left: 2px solid black;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
     height: 7px;
+    box-shadow: 1px 1px 1px black, -1px 1px 1px black, -5px 0 1.2em #EEEEEE;
     margin-top: 7px;
     margin-bottom: 7px;
   }
@@ -123,8 +124,8 @@ body {
   .bodyscaleone {
     margin-left: 98px;
     margin-right: 14px;
-    border-right: 2px solid black;
-    animation: 4s ease 10.4s infinite movescaleone;
+    border-right: 2px solid white;
+    animation: 4s ease 11.2s infinite movescaleone;
   }
 
   @keyframes movescaleone {
@@ -139,8 +140,8 @@ body {
   .bodyscaletwo {
     margin-left: 97px;
     margin-right: 13px;
-    border-right: 2px solid black;
-    animation: 4s ease 10.2s infinite movescaletwo;
+    border-right: 2px solid white;
+    animation: 4s ease 10.9s infinite movescaletwo;
   }
 
   @keyframes movescaletwo {
@@ -155,8 +156,8 @@ body {
   .bodyscalethree {
     margin-left: 96px;
     margin-right: 12px;
-    border-right: 2px solid black;
-    animation: 4s ease 10.0s infinite movescalethree;
+    border-right: 2px solid white;
+    animation: 4s ease 10.6s infinite movescalethree;
   }
 
   @keyframes movescalethree {
@@ -171,8 +172,8 @@ body {
   .bodyscalefour {
     margin-left: 94px;
     margin-right: 10px;
-    border-right: 2px solid black;
-    animation: 4s ease 9.8s infinite movescalefour;
+    border-right: 2px solid white;
+    animation: 4s ease 10.3s infinite movescalefour;
   }
 
   @keyframes movescalefour {
@@ -187,8 +188,8 @@ body {
   .bodyscalefive {
     margin-left: 92px;
     margin-right: 8px;
-    border-right: 2px solid black;
-    animation: 4s ease 9.6s infinite movescalefive;
+    border-right: 2px solid white;
+    animation: 4s ease 10.0s infinite movescalefive;
   }
 
   @keyframes movescalefive {
@@ -203,8 +204,8 @@ body {
   .bodyscalesix {
     margin-left: 90px;
     margin-right: 6px;
-    border-right: 2px solid black;
-    animation: 4s ease 9.4s infinite movescalesix;
+    border-right: 2px solid white;
+    animation: 4s ease 9.7s infinite movescalesix;
   }
 
   @keyframes movescalesix {
@@ -219,8 +220,8 @@ body {
   .bodyscaleseven {
     margin-left: 88px;
     margin-right: 5px;
-    border-right: 2px solid black;
-    animation: 4s ease 9.2s infinite movescaleseven;
+    border-right: 2px solid white;
+    animation: 4s ease 9.4s infinite movescaleseven;
   }
 
   @keyframes movescaleseven {
@@ -235,8 +236,8 @@ body {
   .bodyscaleeight {
     margin-left: 88px;
     margin-right: 4px;
-    border-right: 2px solid black;
-    animation: 4s ease 9.0s infinite movescaleeight;
+    border-right: 2px solid white;
+    animation: 4s ease 9.1s infinite movescaleeight;
   }
 
   @keyframes movescaleeight {
@@ -251,7 +252,7 @@ body {
   .bodyscalenine {
     margin-left: 88px;
     margin-right: 3px;
-    border-right: 2px solid black;
+    border-right: 2px solid white;
     animation: 4s ease 8.8s infinite movescalenine;
   }
 
@@ -267,8 +268,8 @@ body {
   .bodyscaleten {
     margin-left: 88px;
     margin-right: 2px;
-    border-right: 2px solid black;
-    animation: 4s ease 8.6s infinite movescaleten;
+    border-right: 2px solid white;
+    animation: 4s ease 8.5s infinite movescaleten;
   }
 
   @keyframes movescaleten {
@@ -283,131 +284,131 @@ body {
   .bodyscaleeleven {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 8.4s infinite movescale;
+    animation: 4s ease 8.2s infinite movescale;
   }
 
   .bodyscaletwelve {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 8.2s infinite movescale;
+    animation: 4s ease 7.9s infinite movescale;
   }
 
   .bodyscalethirteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 8.0s infinite movescale;
+    animation: 4s ease 7.6s infinite movescale;
   }
 
   .bodyscalefourteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 7.8s infinite movescale;
+    animation: 4s ease 7.3s infinite movescale;
   }
 
   .bodyscalefifteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 7.6s infinite movescale;
+    animation: 4s ease 7.0s infinite movescale;
   }
 
   .bodyscalesixteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 7.4s infinite movescale;
+    animation: 4s ease 6.7s infinite movescale;
   }
 
   .bodyscaleseventeen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 7.2s infinite movescale;
+    animation: 4s ease 6.4s infinite movescale;
   }
 
   .bodyscaleeighteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 7.0s infinite movescale;
+    animation: 4s ease 6.1s infinite movescale;
   }
 
   .bodyscalenineteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 6.8s infinite movescale;
+    animation: 4s ease 5.8s infinite movescale;
   }
 
   .bodyscaletwenty {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 6.6s infinite movescale;
+    animation: 4s ease 5.5s infinite movescale;
   }
 
   .bodyscaletwentyone {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 6.4s infinite movescale;
+    animation: 4s ease 5.2s infinite movescale;
   }
 
   .bodyscaletwentytwo {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 6.2s infinite movescale;
+    animation: 4s ease 4.9s infinite movescale;
   }
 
   .bodyscaletwentythree {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 6.0s infinite movescale;
+    animation: 4s ease 4.6s infinite movescale;
   }
 
   .bodyscaletwentyfour {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 5.8s infinite movescale;
+    animation: 4s ease 4.3s infinite movescale;
   }
 
 
   .bodyscaletwentyfive {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 5.6s infinite movescale;
+    animation: 4s ease 4.0s infinite movescale;
   }
 
   .bodyscaletwentysix {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 5.4s infinite movescale;
+    animation: 4s ease 3.7s infinite movescale;
   }
 
   .bodyscaletwentyseven {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 5.2s infinite movescale;
+    animation: 4s ease 3.4s infinite movescale;
   }
   .bodyscaletwentyeight {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 5.0s infinite movescale;
+    animation: 4s ease 3.1s infinite movescale;
   }
   .bodyscaletwentynine {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 4.8s infinite movescale;
+    animation: 4s ease 2.8s infinite movescale;
 
   }
   .bodyscalethirty {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 4.4s infinite movescale;
+    animation: 4s ease 2.5s infinite movescale;
 
   }
   .bodyscalethirtyone {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 4.2s infinite movescale;
+    animation: 4s ease 2.2s infinite movescale;
   }
   .bodyscalethirtytwo {
     margin-left:  88px;
     margin-right: 1px;
-    animation: 4s ease 4s infinite movescale;
+    animation: 4s ease 1.9s infinite movescale;
   }
 
   @keyframes movescale {
@@ -422,7 +423,7 @@ body {
   .bodyscalethirtythree {
     margin-left: 92px;
     margin-right: 1px;
-    animation: 4s ease 3.8s infinite movescalethirtythree;
+    animation: 4s ease 1.6s infinite movescalethirtythree;
   }
 
   @keyframes movescalethirtythree {
@@ -437,7 +438,7 @@ body {
   .bodyscalethirtyfour {
     margin-left: 96px;
     margin-right: 1px;
-    animation: 4s ease 3.6s infinite movescalethirtyfour;
+    animation: 4s ease 1.3s infinite movescalethirtyfour;
   }
 
   @keyframes movescalethirtyfour {
@@ -452,7 +453,7 @@ body {
   .bodyscalethirtyfive {
     margin-left: 100px;
     margin-right: 1px;
-    animation: 4s ease 3.4s infinite movescalethirtyfive;
+    animation: 4s ease 1.0s infinite movescalethirtyfive;
   }
 
   @keyframes movescalethirtyfive {
@@ -464,15 +465,21 @@ body {
           margin-right: 1px;}
   }
 
+
   .pageone {
+    height: 740px;
+    background: linear-gradient(#263238, #3E4551);
 
   }
 
   .pagetwo {
+    height: 740px;
+    background: linear-gradient(#3E4551, #263238);
 
   }
 
   .pagethree {
-
+    height: 740px;
+    background: linear-gradient(#263238, #3E4551);
   }
 }
