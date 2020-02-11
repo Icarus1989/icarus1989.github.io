@@ -31,7 +31,7 @@ body {
   .dragon {
     width: 33%;
     height: 667px;
-    border: 1px solid white;
+    border: 1px solid transparent;
     opacity: 0.9;
     position: fixed;
     right: 0;
@@ -469,17 +469,67 @@ body {
   .pageone {
     height: 740px;
     background: linear-gradient(#263238, #3E4551);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
   }
 
   .pagetwo {
     height: 740px;
     background: linear-gradient(#3E4551, #263238);
-
+    display: flex;
+    justify-content: flex-start;
   }
 
   .pagethree {
     height: 740px;
     background: linear-gradient(#263238, #3E4551);
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .showtextcontainer {
+    width: 60%;
+    height: 90%;
+    border: 1px solid transparent;
+    margin-right: 5%;
+    margin-left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .showtext {
+    width: 12em;
+    height: 10em;
+    border: 1px solid white;
+    border-image-source: url("WhiteFlametest4.png");
+    border-image-outset: 10px;
+    border-image-repeat: space;
+    border-image-width: auto;
+    border-image-slice: 100% 0% 100% 100%;
+    border-radius: 100% 0% 100% 0% / 5% 90% 10% 95%;
+    background: linear-gradient(175deg, transparent 0%, #FAFAFA 15%, #FAFAFA, #FAFAFA 85%, transparent 100%);
+    opacity: 0.9;
+    display: flex;
+    margin: 2px;
+  }
+
+  .showtexttwo {
+    width: 12em;
+    height: 24em;
+    border: 1px solid white;
+    border-image-source: url("WhiteFlametest4.png");
+    border-image-outset: 4px;
+    border-image-repeat: space;
+    border-image-width: auto;
+    border-image-slice: 100% 0% 100% 100%;
+    border-radius: 100% 0% 100% 0% / 5% 95% 5% 95%;
+    background: linear-gradient(175deg, transparent 0%, #FAFAFA 10%, #FAFAFA, #FAFAFA 90%, transparent 100%);
+    opacity: 0.9;
+    display: flex;
+    margin: 2px;
   }
 }
