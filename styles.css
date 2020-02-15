@@ -103,7 +103,7 @@ body {
     position: absolute;
     left: 21%;
     bottom: 31%;
-    animation: 4s ease 2.5s infinite movedragonpaw;
+    animation: 4s ease 1.4s infinite movedragonpaw;
     filter: invert(1) drop-shadow(1px 1px 1px white)
                       drop-shadow(2px 2px 2px black)
                       drop-shadow(-1px 1px 1px black)
@@ -126,7 +126,7 @@ body {
     position: absolute;
     left: 21%;
     bottom: 67%;
-    animation: 4s ease 7.5s infinite movedragonpaw;
+    animation: 4s ease 6.4s infinite movedragonpaw;
     filter: invert(1) drop-shadow(1px 1px 1px white)
                       drop-shadow(2px 2px 2px black)
                       drop-shadow(-1px 1px 1px black)
@@ -156,7 +156,7 @@ body {
     margin-left: 98px;
     margin-right: 14px;
     border-right: 2px solid white;
-    animation: 4s ease 11.2s infinite movescaleone;
+    animation: 4s ease 10.2s infinite movescaleone;
   }
 
   @keyframes movescaleone {
@@ -172,7 +172,7 @@ body {
     margin-left: 97px;
     margin-right: 13px;
     border-right: 2px solid white;
-    animation: 4s ease 10.9s infinite movescaletwo;
+    animation: 4s ease 9.9s infinite movescaletwo;
   }
 
   @keyframes movescaletwo {
@@ -188,7 +188,7 @@ body {
     margin-left: 96px;
     margin-right: 12px;
     border-right: 2px solid white;
-    animation: 4s ease 10.6s infinite movescalethree;
+    animation: 4s ease 9.6s infinite movescalethree;
   }
 
   @keyframes movescalethree {
@@ -204,7 +204,7 @@ body {
     margin-left: 94px;
     margin-right: 10px;
     border-right: 2px solid white;
-    animation: 4s ease 10.3s infinite movescalefour;
+    animation: 4s ease 9.3s infinite movescalefour;
   }
 
   @keyframes movescalefour {
@@ -220,7 +220,7 @@ body {
     margin-left: 92px;
     margin-right: 8px;
     border-right: 2px solid white;
-    animation: 4s ease 10.0s infinite movescalefive;
+    animation: 4s ease 9.0s infinite movescalefive;
   }
 
   @keyframes movescalefive {
@@ -236,7 +236,7 @@ body {
     margin-left: 90px;
     margin-right: 6px;
     border-right: 2px solid white;
-    animation: 4s ease 9.7s infinite movescalesix;
+    animation: 4s ease 8.7s infinite movescalesix;
   }
 
   @keyframes movescalesix {
@@ -252,7 +252,7 @@ body {
     margin-left: 88px;
     margin-right: 5px;
     border-right: 2px solid white;
-    animation: 4s ease 9.4s infinite movescaleseven;
+    animation: 4s ease 8.4s infinite movescaleseven;
   }
 
   @keyframes movescaleseven {
@@ -268,7 +268,7 @@ body {
     margin-left: 88px;
     margin-right: 4px;
     border-right: 2px solid white;
-    animation: 4s ease 9.1s infinite movescaleeight;
+    animation: 4s ease 8.1s infinite movescaleeight;
   }
 
   @keyframes movescaleeight {
@@ -284,7 +284,7 @@ body {
     margin-left: 88px;
     margin-right: 3px;
     border-right: 2px solid white;
-    animation: 4s ease 8.8s infinite movescalenine;
+    animation: 4s ease 7.8s infinite movescalenine;
   }
 
   @keyframes movescalenine {
@@ -300,7 +300,7 @@ body {
     margin-left: 88px;
     margin-right: 2px;
     border-right: 2px solid white;
-    animation: 4s ease 8.5s infinite movescaleten;
+    animation: 4s ease 7.5s infinite movescaleten;
   }
 
   @keyframes movescaleten {
@@ -315,131 +315,131 @@ body {
   .bodyscaleeleven {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 8.2s infinite movescale;
+    animation: 4s ease 7.2s infinite movescale;
   }
 
   .bodyscaletwelve {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 7.9s infinite movescale;
+    animation: 4s ease 6.9s infinite movescale;
   }
 
   .bodyscalethirteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 7.6s infinite movescale;
+    animation: 4s ease 6.6s infinite movescale;
   }
 
   .bodyscalefourteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 7.3s infinite movescale;
+    animation: 4s ease 6.3s infinite movescale;
   }
 
   .bodyscalefifteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 7.0s infinite movescale;
+    animation: 4s ease 6.0s infinite movescale;
   }
 
   .bodyscalesixteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 6.7s infinite movescale;
+    animation: 4s ease 5.7s infinite movescale;
   }
 
   .bodyscaleseventeen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 6.4s infinite movescale;
+    animation: 4s ease 5.4s infinite movescale;
   }
 
   .bodyscaleeighteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 6.1s infinite movescale;
+    animation: 4s ease 5.1s infinite movescale;
   }
 
   .bodyscalenineteen {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 5.8s infinite movescale;
+    animation: 4s ease 4.8s infinite movescale;
   }
 
   .bodyscaletwenty {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 5.5s infinite movescale;
+    animation: 4s ease 4.5s infinite movescale;
   }
 
   .bodyscaletwentyone {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 5.2s infinite movescale;
+    animation: 4s ease 4.2s infinite movescale;
   }
 
   .bodyscaletwentytwo {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 4.9s infinite movescale;
+    animation: 4s ease 3.9s infinite movescale;
   }
 
   .bodyscaletwentythree {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 4.6s infinite movescale;
+    animation: 4s ease 3.6s infinite movescale;
   }
 
   .bodyscaletwentyfour {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 4.3s infinite movescale;
+    animation: 4s ease 3.3s infinite movescale;
   }
 
 
   .bodyscaletwentyfive {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 4.0s infinite movescale;
+    animation: 4s ease 3.0s infinite movescale;
   }
 
   .bodyscaletwentysix {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 3.7s infinite movescale;
+    animation: 4s ease 2.7s infinite movescale;
   }
 
   .bodyscaletwentyseven {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 3.4s infinite movescale;
+    animation: 4s ease 2.4s infinite movescale;
   }
   .bodyscaletwentyeight {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 3.1s infinite movescale;
+    animation: 4s ease 2.1s infinite movescale;
   }
   .bodyscaletwentynine {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 2.8s infinite movescale;
+    animation: 4s ease 1.8s infinite movescale;
 
   }
   .bodyscalethirty {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 2.5s infinite movescale;
+    animation: 4s ease 1.5s infinite movescale;
 
   }
   .bodyscalethirtyone {
     margin-left: 88px;
     margin-right: 1px;
-    animation: 4s ease 2.2s infinite movescale;
+    animation: 4s ease 1.2s infinite movescale;
   }
   .bodyscalethirtytwo {
     margin-left:  88px;
     margin-right: 1px;
-    animation: 4s ease 1.9s infinite movescale;
+    animation: 4s ease 0.9s infinite movescale;
   }
 
   @keyframes movescale {
@@ -454,7 +454,7 @@ body {
   .bodyscalethirtythree {
     margin-left: 92px;
     margin-right: 1px;
-    animation: 4s ease 1.6s infinite movescalethirtythree;
+    animation: 4s ease 0.6s infinite movescalethirtythree;
   }
 
   @keyframes movescalethirtythree {
@@ -469,7 +469,7 @@ body {
   .bodyscalethirtyfour {
     margin-left: 96px;
     margin-right: 1px;
-    animation: 4s ease 1.3s infinite movescalethirtyfour;
+    animation: 4s ease 0.3s infinite movescalethirtyfour;
   }
 
   @keyframes movescalethirtyfour {
@@ -484,7 +484,7 @@ body {
   .bodyscalethirtyfive {
     margin-left: 100px;
     margin-right: 1px;
-    animation: 4s ease 1.0s infinite movescalethirtyfive;
+    animation: 4s ease 0.0s infinite movescalethirtyfive;
   }
 
   @keyframes movescalethirtyfive {
@@ -499,7 +499,7 @@ body {
 
   .pageone {
     height: 740px;
-    background: linear-gradient(#263238, #3E4551);
+    background: linear-gradient(#3E4551, #263238);
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -509,7 +509,7 @@ body {
 
   .pagetwo {
     height: 740px;
-    background: linear-gradient(#3E4551, #263238);
+    background: linear-gradient(#263238, #3E4551);
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -518,7 +518,7 @@ body {
 
   .pagethree {
     height: 740px;
-    background: linear-gradient(#263238, #3E4551);
+    background: linear-gradient(#3E4551, #263238);
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -527,12 +527,15 @@ body {
 
   .showtextcontainer {
     width: 55%;
-    height: 90%;
+    height: 96%;
     border: 1px solid transparent;
+    margin-top: auto;
     margin-right: 0%;
     margin-left: 0%;
+    margin-bottom: 0%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
@@ -549,13 +552,104 @@ body {
     border-radius: 100% 0% 100% 0% / 5% 90% 10% 95%;
     background: linear-gradient(175deg, transparent 0%, #FAFAFA 15%, #FAFAFA, #FAFAFA 85%, transparent 100%);
     opacity: 0.9;
+    margin: 0;
+    font-family: 'Fondamento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .infocontainer {
     display: flex;
-    margin: 2px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: auto;
+    height: 70%;
+  }
+
+  .pageonephoto {
+    width: 60%;
+    height: auto;
+    border: 1px solid black;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+  }
+
+  .titlename {
+    width: auto;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    font-size: 18px;
+    font-weight: 700;
+
+  }
+
+  .textone {
+    width: 40%;
+    height: auto;
+    border: 1px solid transparent;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+  }
+
+  .textone p{
+    width: auto;
+    height: auto;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    border: 1px solid transparent;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+
+  }
+
+  .numberdate {
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid black;
+    border-left: 1px solid transparent;
+    margin: 1px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .buttonscontainer {
+    width: 120px;
+    height: auto;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .buttonleft {
+    width: auto;
+    font-size: 30px;
+    border: 1px solid transparent;
+    background-color: transparent;
+  }
+
+  .buttonright {
+    width: auto;
+    font-size: 30px;
+    border: 1px solid transparent;
+    background-color: transparent;
   }
 
   .showtexttwo {
     width: 10em;
-    height: 24em;
+    height: 60%;
     border: 1px solid white;
     border-image-source: url("WhiteFlametest4.png");
     border-image-outset: 10px;
@@ -567,6 +661,18 @@ body {
     opacity: 0.9;
     display: flex;
     margin: 2px;
+  }
+
+  .texttwo {
+    width: auto;
+    height: 80%;
+    margin-top: 10%;
+    margin-right: 0%;
+    margin-bottom: 10%;
+    margin-left: 0%;
+    font-family: 'Fondamento';
+    font-style: normal;
+    font-weight: 400;
   }
 
   .titlecontainer {
