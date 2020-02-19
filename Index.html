@@ -82,18 +82,25 @@
          <div class='texttop textone mySlides'>
            <p><span class='numberdate'>1989</span><br/><span class='numberdate'>Dec</span><br/><span class='numberdate'>09</span></p>
          </div>
-         <!--<div class='textone mySlides'>
-           <p><span class=''>Life Objectives</span></p>
-         </div>-->
+         <div class='textone mySlides'>
+           <p><span class='littletitle'>Obj</span><br/><span class='littletitle'>Life</span></p>
+         </div>
       </div>
     </div>
      <div class='buttonscontainer'>
-      <button class='buttonleft' style='color:white' onclick='plusDivs(-1)'><i class="fa fa-angle-left" style="font-size:40px;color:white"></i></button>
-      <button class='buttonright' style='color:white' onclick='plusDivs(1)'><i class='fa fa-angle-right' style='font-size:40px;color:white'></i></button>
+      <button id='buttonleftslides' class='buttonleft' style='color:white' onclick='plusSlides(-1); plusSlidesTwo(-1)'><i class="fa fa-angle-left" style="font-size:40px;color:white"></i></button>
+      <button id='buttonrightslides' class='buttonright' style='color:white' onclick='plusSlides(1); plusSlidesTwo(1)'><i class='fa fa-angle-right' style='font-size:40px;color:white'></i></button>
     </div>
       <div class='showtexttwo'>
-        <div class='textbottom texttwo'>
-          <p>Biografia</p>
+        <div class='textbottom texttwo mySlidesTwo'>
+          <p>Biografia<br/>Bla Bla Bla</p>
+        </div>
+        <div class='textbottom texttwo mySlidesTwo'>
+          <ul class='listlifeobj'>
+            <li>Create My Family</li>
+            <li>Full Stack Developer</li>
+            <li>Freelance Career</li>
+          </ul>
         </div>
       </div>
    </div>
@@ -104,22 +111,38 @@
       </div>
       <div class='showtextcontainer'>
       <div class='showtext'>
-        <div class='texttop textthree'>
+        <div class='texttop textthree mySlidesThree'>
+          <p>10 Years Express Courier Career</p>
+        </div>
+        <div class='texttop textthree mySlidesThree'>
+          <p>Front End Developer - Hard Skills</p>
         </div>
       </div>
       <div class='buttonscontainer'>
-       <button class='buttonleft' style='color:white' onclick='plusDivs(-1)'><i class="fa fa-angle-left" style="font-size:40px;color:white"></i></button>
-       <button class='buttonright' style='color:white' onclick='plusDivs(1)'><i class='fa fa-angle-right' style='font-size:40px;color:white'></i></button>
+       <button class='buttonleft' style='color:white' onclick='plusSlidesThree(-1); plusSlidesFour(-1)'><i class="fa fa-angle-left" style="font-size:40px;color:white"></i></button>
+       <button class='buttonright' style='color:white' onclick='plusSlidesThree(1); plusSlidesFour(1)'><i class='fa fa-angle-right' style='font-size:40px;color:white'></i></button>
      </div>
       <div class='showtexttwo'>
-        <div class='textbottom textfour'>
+        <div class='textbottom textfour mySlidesFour'>
+          <ul>
+            <li>Driver</li>
+            <li>Driver Manager</li>
+            <li>Electronic Equipment Manager</li>
+          </ul>
+        </div>
+        <div class='textbottom textfour mySlidesFour'>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
         </div>
       </div>
       </div>
     </div>
     <div class='section pagethree'>
       <div class='titlecontainer'>
-        <p>Contacts </p>
+        <p>Contacts</p>
       </div>
       <div class='showtextcontainer'>
       <div class='showtexttwo'>
@@ -129,5 +152,106 @@
       </div>
     </div>
 </div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+ showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+ var i;
+ var slides = document.getElementsByClassName("mySlides");
+ if (n > slides.length) {slideIndex = 1}
+   if (n < 1) {slideIndex = slides.length}
+   for (i = 0; i < slides.length; i++) {
+     slides[i].style.display = "none";
+   }
+
+ slides[slideIndex-1].style.display = "block";
+}
+</script>
+
+<script>
+var slideIndexTwo = 1;
+showSlidesTwo(slideIndexTwo);
+
+function plusSlidesTwo(n) {
+ showSlidesTwo(slideIndexTwo += n);
+}
+
+function currentSlideTwo(n) {
+ showSlidesTwo(slideIndexTwo = n);
+}
+
+function showSlidesTwo(n) {
+ var v;
+ var slidestwo = document.getElementsByClassName("mySlidesTwo");
+ if (n > slidestwo.length) {slideIndexTwo = 1}
+   if (n < 1) {slideIndexTwo = slidestwo.length}
+   for (v = 0; v < slidestwo.length; v++) {
+     slidestwo[v].style.display = "none";
+   }
+
+ slidestwo[slideIndexTwo-1].style.display = "block";
+}
+</script>
+
+<script>
+var slideIndexThree = 1;
+showSlidesThree(slideIndexThree);
+
+function plusSlidesThree(n) {
+ showSlidesThree(slideIndexThree += n);
+}
+
+function currentSlideThree(n) {
+ showSlidesThree(slideIndexThree = n);
+}
+
+function showSlidesThree(n) {
+ var z;
+ var slidesthree = document.getElementsByClassName("mySlidesThree");
+ if (n > slidesthree.length) {slideIndexThree = 1}
+   if (n < 1) {slideIndexThree = slidesthree.length}
+   for (z = 0; z < slidesthree.length; z++) {
+     slidesthree[z].style.display = "none";
+   }
+
+ slidesthree[slideIndexThree-1].style.display = "block";
+}
+</script>
+
+<script>
+var slideIndexFour = 1;
+showSlidesFour(slideIndexFour);
+
+function plusSlidesFour(n) {
+ showSlidesFour(slideIndexFour += n);
+}
+
+function currentSlideFour(n) {
+ showSlidesFour(slideIndexFour = n);
+}
+
+function showSlidesFour(n) {
+ var j;
+ var slidesfour = document.getElementsByClassName("mySlidesFour");
+ if (n > slidesfour.length) {slideIndexFour = 1}
+   if (n < 1) {slideIndexFour = slidesfour.length}
+   for (j = 0; j < slidesfour.length; j++) {
+     slidesfour[j].style.display = "none";
+   }
+
+ slidesfour[slideIndexFour-1].style.display = "block";
+}
+</script>
+
 </body>
 </html>

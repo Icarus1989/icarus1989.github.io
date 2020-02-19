@@ -525,11 +525,25 @@ body {
     align-items: center;
   }
 
+  .mySlides {
+    display: none;
+  }
+
+  .mySlidesTwo {
+    display: none;
+  }
+  .mySlidesThree {
+    display: none;
+  }
+  .mySlidesFour {
+    display: none;
+  }
+
   .showtextcontainer {
     width: 55%;
     height: 96%;
     border: 1px solid transparent;
-    margin-top: auto;
+    margin-top: 0%;
     margin-right: 0%;
     margin-left: 0%;
     margin-bottom: 0%;
@@ -614,6 +628,10 @@ body {
 
   }
 
+  .texttop {
+    display: block;
+  }
+
   .numberdate {
     border-top: 1px solid transparent;
     border-right: 1px solid transparent;
@@ -622,6 +640,15 @@ body {
     margin: 1px;
     font-size: 16px;
     font-weight: 700;
+  }
+
+  .littletitle {
+    font-size: 16px;
+    font-weight: 700;
+    border-top: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid black;
+    border-left: 1px solid transparent;
   }
 
   .buttonscontainer {
@@ -663,7 +690,9 @@ body {
     margin: 2px;
   }
 
-  .texttwo {
+  .texttwo,
+  .textthree,
+  .textfour {
     width: auto;
     height: 80%;
     margin-top: 10%;
@@ -673,6 +702,10 @@ body {
     font-family: 'Fondamento';
     font-style: normal;
     font-weight: 400;
+  }
+
+  .listlifeobj {
+    list-style: circle inside;
   }
 
   .titlecontainer {
