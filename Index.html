@@ -10,6 +10,7 @@
   <script language="javascript" type="text/javascript" src="jquery-3.4.1.js"></script>
   <script language="javascript" type="text/javascript" src="jquery.scrollify.js"></script>
   <script type="text/javascript" src='thescript.js'></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <script>
   $(function() {
           $.scrollify({
@@ -20,6 +21,7 @@
 </head>
 <body>
   <div id='container'>
+  <div class='dragoncontainer'>
   <div class='dragon'>
     <div class='dragonbody'>
       <div class='dragonpaw'>
@@ -69,22 +71,28 @@
       <!--Simple Head Image static-->
     </div>
   </div>
+  </div>
   <div class='section pageone'>
-      <div class='titlecontainer'>
-        <p>Presentation </p>
+      <div style='margin-top: auto; margin-left: 1%; margin-bottom: 8%;'class='titlecontainer'>
+        <p>Presentation</p>
       </div>
    <div class='showtextcontainer'>
     <div class='showtext'>
         <p class='titlename'>Valente Alex</p>
+        <div class='mySlides'>
         <div class='infocontainer'>
         <div class='pageonephoto'>
         </div>
-         <div class='texttop textone mySlides'>
+         <div class='texttop textone'>
            <p><span class='numberdate'>1989</span><br/><span class='numberdate'>Dec</span><br/><span class='numberdate'>09</span></p>
          </div>
-         <div class='textone mySlides'>
-           <p><span class='littletitle'>Obj</span><br/><span class='littletitle'>Life</span></p>
-         </div>
+       </div>
+      </div>
+      <div class='mySlides'>
+        <div class='littletitlelist'>
+          <p class='lifetitle lifetitleleft'>Life</p>
+          <p class='lifetitle lifetitleright'>Objectives</p>
+        </div>
       </div>
     </div>
      <div class='buttonscontainer'>
@@ -93,14 +101,30 @@
     </div>
       <div class='showtexttwo'>
         <div class='textbottom texttwo mySlidesTwo'>
-          <p>Biografia<br/>Bla Bla Bla</p>
+          <p style='font-size: 14px; text-align: left;'>Benvenuto!<br/>
+            Mi chiamo Alex Valente, 30 anni dei quali 22 passati ad amare l'informatica
+            e il mondo digitale, osservandone crescite e straordinarie evoluzioni.
+            Formandomi ogni giorno, passando per varie esperienze lavorative tradizionali,
+            ora il mio obiettivo è portare la mia preparazione nello sviluppo di siti web e software
+            ed un'esperienza decennale nel mondo della mobilità e dei trasporti, alle persone e alle
+            aziende che hanno capito l'enorme impatto che ogni strumento digitale ha nelle nostre vite.
+
+          </p>
         </div>
         <div class='textbottom texttwo mySlidesTwo'>
-          <ul class='listlifeobj'>
-            <li>Create My Family</li>
-            <li>Full Stack Developer</li>
-            <li>Freelance Career</li>
-          </ul>
+          <div class='listlifeobj'>
+            <div class='topobj'><br/><p style='text-shadow: 1px 1px white, -1px 1px white; background: rgba(255,255,255, 0.6);'>Web & App Developer </p>
+              <i class='nocheck far fa-square'></i>
+            </div>
+            <div class='heartsection'><p class='textheart'>Create My Family</p>
+              <div class='squaresel'><div class='checkok'></div></div>
+            <p class='aebracket'>&nbsp;( A + E )</p>
+            <p style='text-align: center; background: rgba(255,255,255, 0.4);'>Evelyn&nbsp; <i class='babymod fas fa-baby-carriage'></i>&nbsp;&nbsp;Dec 19&nbsp;&nbsp;</p>
+          </div>
+            <div class='bottomobj'><br/><br/><p style='text-shadow: 1px 1px white, -1px 1px white; background: rgba(255,255,255, 0.6);'>Freelance  Developer</p>
+              <i class='nocheck far fa-square'></i>
+            </div>
+          </div>
         </div>
       </div>
    </div>
@@ -112,10 +136,19 @@
       <div class='showtextcontainer'>
       <div class='showtext'>
         <div class='texttop textthree mySlidesThree'>
-          <p>10 Years Express Courier Career</p>
+          <p>Hard Skills |<br/>Front End Developer </p><!--
+          <i class='h5mod fab fa-html5'></i>&nbsp;&nbsp;&nbsp;
+          <i class='c3mod fab fa-css3-alt'></i>&nbsp;&nbsp;&nbsp;
+          <i class='jsmod fab fa-js-square'></i>-->
         </div>
         <div class='texttop textthree mySlidesThree'>
-          <p>Front End Developer - Hard Skills</p>
+          <p>Hard Skills |<br/>App Developer</p>
+        </div>
+        <div class='texttop textthree mySlidesThree'>
+          <p>Soft Skills |<br/>Personal Skills</p>
+        </div>
+        <div class='texttop textthree mySlidesThree'>
+          <p>10 Years Career |<br/>Express Courier</p>
         </div>
       </div>
       <div class='buttonscontainer'>
@@ -125,16 +158,101 @@
       <div class='showtexttwo'>
         <div class='textbottom textfour mySlidesFour'>
           <ul>
-            <li>Driver</li>
-            <li>Driver Manager</li>
-            <li>Electronic Equipment Manager</li>
+            <li><p>HTML</p>
+            <div class='skillcontainer'>
+            <div class='skillbase htmlprogress progress'><i class='h5mod fab fa-html5'></i>
+            </div>
+            </div></li>
+            <li><p>CSS</p>
+            <div class='skillcontainer'>
+            <div class='skillbase cssprogress progress'><i class='c3mod fab fa-css3-alt'></i>
+            </div>
+            </div></li>
+            <li><p>JavaScript</p>
+            <div class='skillcontainer'>
+            <div class='skillbase javascriptprogress progress'><i class='jsmod fab fa-js-square'></i>
+            </div>
+            </div></li>
+            <li><p>PHP</p>
+            <div class='skillcontainer'>
+            <div class='skillbase phpprogress progress'><i class='phpmod fab fa-php'></i>
+            </div>
+            </div></li>
+            <li><p>MySQL</p>
+            <div class='skillcontainer'>
+            <div class='skillbase mysqlprogress progress'><i class='sqlmod fas fa-database'></i>
+            </div>
+            </div></li>
           </ul>
         </div>
         <div class='textbottom textfour mySlidesFour'>
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
+            <li><p>XCode</p>
+            <div class='skillcontainer'>
+            <div class='skillbase xcodeprogress progress'><div class='xcmod'></div>
+            </div>
+            </div></li>
+            <li><p>Objective-C</p>
+            <div class='skillcontainer'>
+            <div class='skillbase objcprogress progress'><i class='appledevmod fab fa-apple'></i>
+            </div>
+            </div></li>
+            <li><p>Swift</p>
+            <div class='skillcontainer'>
+            <div class='skillbase swiftprogress progress'><i class='swiftmod fab fa-swift'></i>
+            </div>
+            </div></li>
+            <li><p>Java</p>
+            <div class='skillcontainer'>
+            <div class='skillbase javaprogress progress'><i class='javamod fab fa-java'></i>
+            </div>
+            </div></li>
+          </ul>
+        </div>
+        <div class='textbottom textfour mySlidesFour'>
+          <ul>
+            <li><p>Creativity</p>
+            <div class='skillcontainer'>
+            <div class='skillbase creatprogress progress'><i class='sklmod far fa-lightbulb'></i>
+            </div>
+            </div></li>
+            <li><p>Proactivity</p>
+            <div class='skillcontainer'>
+            <div class='skillbase proacprogress progress'><i class='sklmod fas fa-bolt'></i>
+            </div>
+            </div></li>
+            <li><p>Negotiation</p>
+            <div class='skillcontainer'>
+            <div class='skillbase negprogress progress'><i style='position: relative; left: 8px;' class='sklmod far fa-handshake'></i>
+            </div>
+            </div></li>
+            <li><p>Problem Solving</p>
+            <div class='skillcontainer'>
+            <div class='skillbase prsolprogress progress'><i class='sklmod fas fa-cogs'></i>
+            </div>
+            </div></li>
+          </ul>
+        </div>
+        <div class='textbottom textfour mySlidesFour'>
+          <ul>
+            <span style='text-align: center;'>Complete</span>
+            <i class='checkmod fas fa-check' style='color: #64dd17; font-size:36px;'></i>
+
+            <li><p>Driver</p>
+            <div class='skillcontainer'>
+            <div class='skillbase driverprogress progress'><i class='vanmod fas fa-shipping-fast'></i>
+            </div>
+            </div></li>
+            <li><p>Driver Manager</p>
+            <div class='skillcontainer'>
+            <div class='skillbase drivmanprogress progress'><i class='vanmod fas fa-users'></i>
+            </div>
+            </div></li>
+            <li><p>Electronic Device Manager</p>
+            <div class='skillcontainer'>
+            <div class='skillbase eemanprogress progress'><i class='vanmod fas fa-mobile'></i>
+            </div>
+            </div></li>
           </ul>
         </div>
       </div>
@@ -142,11 +260,17 @@
     </div>
     <div class='section pagethree'>
       <div class='titlecontainer'>
-        <p>Contacts</p>
+        <p style='margin-left: 2px;'>Contacts</p>
       </div>
       <div class='showtextcontainer'>
       <div class='showtexttwo'>
         <div class='textbottom textfive'>
+          <div class='socialcontainer'>
+            <a href='https://www.facebook.com/alex.valente.92'><i class='fab fa-facebook' style='color:#0091ea;'></i></a>
+            <a href='https://www.instagram.com/alex._.1989/?hl=it'><i class='igmod fab fa-instagram'></i></a>
+            <a href='mailto:westcoastrapper89@yahoo.it?Subject=Qualche%20suggerimento&amp;body=Ciao%20Alex!' target="_top"><i class="fas fa-at"></i></a>
+            <a href='https://github.com/Icarus1989'><i class='fab fa-github' style='color: #4a148c'></i></a>
+          </div>
         </div>
       </div>
       </div>
