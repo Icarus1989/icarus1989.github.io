@@ -696,7 +696,7 @@ body {
     }
 
     .buttonscontainer {
-      width: 286px;
+      width: 290px;
       height: 10%;
       border: 1px solid transparent;
       display: flex;
@@ -711,11 +711,35 @@ body {
       background-color: transparent;
     }
 
+    .buttonleft:hover {
+      width: auto;
+      font-size: 40px;
+      border-top: 1px solid transparent;
+      border-right: 1px solid transparent;
+      border-bottom: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-radius: 3px;
+      background-color: rgba(255, 255, 255, 0.1);
+      box-shadow: -3px 1px #1c2331;
+    }
+
     .buttonright {
       width: auto;
       font-size: 40px;
       border: 1px solid transparent;
       background-color: transparent;
+    }
+
+    .buttonright:hover {
+      width: auto;
+      font-size: 40px;
+      border-top: 1px solid transparent;
+      border-right: 1px solid transparent;
+      border-bottom: 1px solid transparent;
+      border-left: 1px solid transparent;
+      border-radius: 3px;
+      background-color: rgba(255, 255, 255, 0.1);
+      box-shadow: 3px -1px #1c2331;
     }
 
     .showtexttwo {
@@ -2010,7 +2034,7 @@ body {
        font-family: 'Fondamento';
        font-style: normal;
        font-weight: 700;
-       font-size: 270%;
+       font-size: 260%;
        display: flex;
        justify-content: flex-end;
        margin-top: auto;
