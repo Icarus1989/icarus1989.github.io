@@ -4500,14 +4500,14 @@ body {
 
   .buttonleft {
     width: auto;
-    font-size: 34px;
+    font-size: 30px;
     border: 1px solid transparent;
     background-color: transparent;
   }
 
   .buttonright {
     width: auto;
-    font-size: 34px;
+    font-size: 30px;
     border: 1px solid transparent;
     background-color: transparent;
   }
@@ -4553,8 +4553,8 @@ body {
 
   .listlifeobj div p{
     text-align: left;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     border: 1px solid transparent;
   }
 
@@ -4600,12 +4600,12 @@ body {
     background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
                 url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Laptop_%283470%29_-_The_Noun_Project.svg');
     background-size: auto, 50%;
-    background-position: 40% 100%;
+    background-position: 40% 50%;
     background-repeat: no-repeat;
-    margin-top: 10%;
+    margin-top: auto;
     margin-left: 0%;
     margin-right: 0%;
-    margin-bottom: 5%;
+    margin-bottom: auto;
   }
 
   .bottomobj p {
