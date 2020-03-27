@@ -4775,10 +4775,11 @@ body {
   }
 
   .textfour ul {
+    margin-top: 10%;
   }
 
   .textfour ul li p{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     border: 1px solid transparent;
     margin-top: 2px;
