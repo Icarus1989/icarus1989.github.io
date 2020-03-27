@@ -4743,14 +4743,14 @@ body {
   }
 
   .textfour {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .checkmod {
     opacity: 0.7;
-    position: absolute;
-    top: -8%;
-    left: 42%;
+    position: relative;
+    top: 100%;
+    left: -30%;
     filter: drop-shadow(2px 1px black)
             drop-shadow(-1px 1px black)
             drop-shadow(1px -1px black);
@@ -4790,17 +4790,11 @@ body {
 
   .textfour ul span {
     width: 100%;
-    margin-left: auto;
+    margin-left: 10%;
     margin-right: auto;
     display: flex;
     justify-content: center;
     border: 1px solid transparent;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
   }
 
   .skillcontainer {
