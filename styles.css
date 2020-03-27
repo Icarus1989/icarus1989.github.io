@@ -3325,7 +3325,7 @@ body {
     width: 86%;
     text-shadow: 2px 2px white;
     border: 1px solid transparent;
-    padding-top: 7%;
+    padding-top: 5%;
   }
 
   .nocheck {
@@ -3509,7 +3509,7 @@ body {
   .textfour ul li p{
     font-weight: 700;
     border: 1px solid transparent;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: 3px;
     margin-bottom: 3px;
     color: #3E4551;
@@ -4405,6 +4405,11 @@ body {
   .pageonephoto {
     width: 6em;
     height: 6em;
+    background: url('photo.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
     border: 1px solid transparent;
     margin-top: 0%;
     margin-right: 2%;
