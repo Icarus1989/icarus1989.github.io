@@ -4364,10 +4364,10 @@ body {
     width: 55%;
     height: 96%;
     border: 1px dashed transparent;
-    margin-top: 0%;
+    margin-top: auto;
     margin-right: 0%;
     margin-left: 0%;
-    margin-bottom: 0%;
+    margin-bottom: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -4376,7 +4376,7 @@ body {
   }
 
   .showtext {
-    width: 11em;
+    width: 85%;
     height: 10em;
     border: 1px solid white;
     border-image-source: url("WhiteFlametest4.png");
@@ -4391,7 +4391,7 @@ body {
     font-family: 'Fondamento';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .infocontainer {
@@ -4513,8 +4513,8 @@ body {
   }
 
   .showtexttwo {
-    width: 11em;
-    height: 336px;
+    width: 85%;
+    height: 55%;
     border: 1px solid white;
     border-image-source: url("WhiteFlametest4.png");
     border-image-outset: 8px 12px 12px 8px;
@@ -5075,7 +5075,6 @@ body {
   }
 
   .titlecontainer {
-    -webkit-text-size-adjust:none;
     border: 1px solid transparent;
     writing-mode: vertical-rl;
     text-orientation: upright;
