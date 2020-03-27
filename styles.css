@@ -4775,12 +4775,6 @@ body {
   }
 
   .textfour ul {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
   }
 
   .textfour ul li p{
