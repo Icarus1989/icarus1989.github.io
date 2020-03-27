@@ -4514,7 +4514,7 @@ body {
 
   .showtexttwo {
     width: 170px;
-    height: 54%;
+    min-height: 320px;
     border: 1px solid white;
     border-image-source: url("WhiteFlametest4.png");
     border-image-outset: 8px 12px 12px 8px;
@@ -4553,8 +4553,8 @@ body {
 
   .listlifeobj div p{
     text-align: left;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     border: 1px solid transparent;
   }
 
@@ -4605,13 +4605,14 @@ body {
     margin-top: auto;
     margin-left: 0%;
     margin-right: 0%;
-    margin-bottom: auto;
+    margin-bottom: 3%;
   }
 
   .bottomobj p {
     width: 86%;
     border: 1px solid transparent;
     text-shadow: 2px 2px white;
+    padding-bottom: 3%;
   }
 
   .devfricon {
