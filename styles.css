@@ -4642,7 +4642,7 @@ body {
                url('https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg');
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position: 38% 60%;
+    background-position: 42% 60%;
     z-index: 2;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -4784,11 +4784,12 @@ body {
   }
 
   .textfour ul li p{
+    font-size: 16px;
     font-weight: 700;
     border: 1px solid transparent;
-    margin-top: 5px;
+    margin-top: 2px;
     margin-left: 3px;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     color: #3E4551;
   }
 
@@ -4833,7 +4834,7 @@ body {
     bottom: -2px;
     margin: 0px;
     padding: 0px;
-    font-size: 16px;
+    font-size: 14px;
 
   }
 
@@ -4951,10 +4952,6 @@ body {
   .progress {
     box-sizing: border-box;
     opacity: 1.0;
-    border-top: 1px solid transparent;
-    border-right: 1px solid transparent;
-    border-bottom: 1px solid transparent;
-    border-left: 1px solid transparent;
     background: linear-gradient(to top, #43a047 0%, #64dd17  50%);
     border-radius: 7px;
   }
