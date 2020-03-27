@@ -4491,7 +4491,7 @@ body {
 
   .buttonscontainer {
     width: 170px;
-    height: 50px;
+    height: 42px;
     border: 1px solid transparent;
     display: flex;
     justify-content: space-between;
@@ -4500,14 +4500,14 @@ body {
 
   .buttonleft {
     width: auto;
-    font-size: 40px;
+    font-size: 34px;
     border: 1px solid transparent;
     background-color: transparent;
   }
 
   .buttonright {
     width: auto;
-    font-size: 40px;
+    font-size: 34px;
     border: 1px solid transparent;
     background-color: transparent;
   }
