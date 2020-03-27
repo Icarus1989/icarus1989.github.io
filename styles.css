@@ -4376,7 +4376,7 @@ body {
   }
 
   .showtext {
-    width: 85%;
+    width: 170px;
     height: 10em;
     border: 1px solid white;
     border-image-source: url("WhiteFlametest4.png");
@@ -4491,7 +4491,7 @@ body {
 
   .buttonscontainer {
     width: 170px;
-    height: auto;
+    height: 50px;
     border: 1px solid transparent;
     display: flex;
     justify-content: space-between;
@@ -4513,8 +4513,8 @@ body {
   }
 
   .showtexttwo {
-    width: 85%;
-    height: 55%;
+    width: 170px;
+    height: 340px;
     border: 1px solid white;
     border-image-source: url("WhiteFlametest4.png");
     border-image-outset: 8px 12px 12px 8px;
