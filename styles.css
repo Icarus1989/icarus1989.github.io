@@ -1918,13 +1918,13 @@ body {
      }
 
      .textone {
-       width: 6em;
-       height: auto;
+       width: 56px;
+       height: 96px;
        border: 1px solid transparent;
        margin-top: 0%;
        margin-right: 0%;
        margin-left: 0%;
-       margin-bottom: 0%;
+       margin-bottom: 10%;
      }
 
      .textone p{
