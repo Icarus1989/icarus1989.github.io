@@ -1873,7 +1873,7 @@ body {
        border-image-width: auto;
        border-image-slice: 100% 0% 100% 100%;
        border-radius: 100% 0% 100% 0% / 12% 88% 12% 88%;
-       background: linear-gradient(175deg, transparent 8%, rgba(158, 158, 158, 0.1) 20%, #FAFAFA, rgba(158, 158, 158, 0.1) 83%, transparent 92%);
+       background: linear-gradient(175deg, transparent 8%, #FAFAFA 14%, #FAFAFA, #FAFAFA 89%, transparent 92%);
        opacity: 0.9;
        margin: 1%;
        font-family: 'Fondamento';
@@ -2012,7 +2012,7 @@ body {
        border-image-width: auto;
        border-image-slice: 100% 0% 100% 100%;
        border-radius: 100% 0% 100% 0% / 4% 96% 4% 96%;
-       background: linear-gradient(175deg, transparent 4%, rgba(158, 158, 158, 0.1) 8%, #FAFAFA, rgba(158, 158, 158, 0.1) 92%, transparent 96%);
+       background: linear-gradient(175deg, transparent 4%, #FAFAFA 6%, #FAFAFA, #FAFAFA 94%, transparent 96%);
        opacity: 0.9;
        display: flex;
        margin: 2%;
