@@ -5045,8 +5045,8 @@ body {
 
   .titlecontainer {
     border: 1px solid transparent;
-    -webkit-writing-mode: vertical-rl;
-    -webkit-text-orientation: upright;
+    word-break: break-all;
+    width: 10px;
     color: white;
     text-shadow: 2px 2px black, 0 0 0.8em white;
     font-family: 'Fondamento';
