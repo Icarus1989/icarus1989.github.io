@@ -1928,6 +1928,11 @@ body {
      }
 
      .textone p{
+       display: flex;
+       flex-direction: row-reverse;
+       align-items: flex-start;
+       flex-wrap: wrap;
+       justify-content: space-around;
        width: auto;
        height: auto;
        border: 1px solid transparent;
