@@ -1932,7 +1932,7 @@ body {
        flex-direction: row-reverse;
        align-items: flex-start;
        flex-wrap: wrap;
-       justify-content: space-around;
+       justify-content: space-between;
        width: auto;
        height: auto;
        border: 1px solid transparent;
@@ -1950,8 +1950,8 @@ body {
 
      .numberdate {
        word-break: break-all;
-       width: 12px;
-       font-size: 18px;
+       width: 10px;
+       font-size: 16px;
        font-weight: 700;
        letter-spacing: -4px;
        border-top: 1px solid transparent;
