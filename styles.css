@@ -4457,14 +4457,14 @@ body {
 
   .numberdate {
     word-break: break-all;
-    width: 10px;
+    width: 12px;
     border-top: 1px solid transparent;
     border-right: 1px solid transparent;
     border-bottom: 1px solid black;
     border-left: 1px solid transparent;
-    margin: 1px;
-    font-size: 16px;
-    font-weight: 700;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
   }
 
   .littletitlelist p {
@@ -5053,7 +5053,7 @@ body {
     display: flex;
     margin-top: auto;
     margin-right: 0%;
-    margin-left: 0%;
+    margin-left: 4%;
     margin-bottom: auto;
     opacity: 0.9;
   }
