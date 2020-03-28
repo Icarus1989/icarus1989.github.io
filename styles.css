@@ -1930,8 +1930,6 @@ body {
      .textone p{
        width: auto;
        height: auto;
-       writing-mode: vertical-rl;
-       text-orientation: upright;
        border: 1px solid transparent;
        position: relative;
        top: 50%;
@@ -1946,6 +1944,8 @@ body {
      .texttop {}
 
      .numberdate {
+       word-break: break-all;
+       width: 12px;
        font-size: 18px;
        font-weight: 700;
        letter-spacing: -4px;
@@ -1955,6 +1955,43 @@ body {
        border-left: 1px solid transparent;
        margin: 1px;
      }
+
+     /* .textone {
+       width: 56px;
+       height: 96px;
+       border: 1px solid transparent;
+       margin-top: auto;
+       margin-right: 0%;
+       margin-left: 0%;
+       margin-bottom: 10%;
+     }
+
+     .textone p{
+       display: flex;
+       flex-direction: row-reverse;
+       align-items: flex-start;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       width: auto;
+       height: auto;
+       border: 1px solid transparent;
+     }
+
+     .texttop {
+
+     }
+
+     .numberdate {
+       word-break: break-all;
+       width: 12px;
+       border-top: 1px solid transparent;
+       border-right: 1px solid transparent;
+       border-bottom: 1px solid black;
+       border-left: 1px solid transparent;
+       margin: 0px;
+       font-size: 15px;
+       font-weight: 600;
+     } */
 
      .littletitlelist p {
        font-size: 20px;
@@ -2027,8 +2064,8 @@ body {
 
      .titlecontainer {
        border: 1px solid transparent;
-       writing-mode: vertical-rl;
-       text-orientation: upright;
+       word-break: break-all;
+       width: 10px;
        color: white;
        text-shadow: 2px 2px black, 0 0 0.8em white;
        font-family: 'Fondamento';
