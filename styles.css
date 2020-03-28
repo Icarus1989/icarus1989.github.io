@@ -1999,7 +1999,7 @@ body {
 
      .showtexttwo {
        width: 18em;
-       height: 20em;
+       height: 54%;
        border: 1px solid transparent;
        border-image-source: url("WhiteFlametest4.png");
        border-image-outset: 14px 18px 18px 18px;;
