@@ -4600,7 +4600,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(transparent 10%,rgba(255,255,255, 0.6), rgba(255,255,255, 0.4), transparent 97%),
+    background: linear-gradient(transparent 10%,rgba(255,255,255, 0.6), rgba(255,255,255, 0.4), transparent 90%),
                 url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Laptop_%283470%29_-_The_Noun_Project.svg');
     background-size: auto, 50%;
     background-position: 40% 50%;
