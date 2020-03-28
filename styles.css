@@ -1999,10 +1999,10 @@ body {
 
      .showtexttwo {
        width: 18em;
-       height: 54%;
-       border: 1px solid transparent;
+       height: 50%;
+       border: 1px solid white;
        border-image-source: url("WhiteFlametest4.png");
-       border-image-outset: 14px 20px 20px 14px;
+       border-image-outset: 8px 12px 12px 8px;
        border-image-repeat: space;
        border-image-width: auto;
        border-image-slice: 100% 0% 100% 100%;
@@ -2010,7 +2010,7 @@ body {
        background: linear-gradient(175deg, transparent 4%, #FAFAFA 8%, #FAFAFA, #FAFAFA 92%, transparent 96%);
        opacity: 0.9;
        display: flex;
-       margin: 1%;
+       margin: 2%;
        flex-direction: column;
        align-items: center;
        justify-content: center;
@@ -3262,7 +3262,7 @@ body {
     max-height: 383px;
     border: 1px solid white;
     border-image-source: url("WhiteFlametest4.png");
-    border-image-outset: 6px 10px 10px 10px;;
+    border-image-outset: 6px 10px 10px 10px;
     border-image-repeat: space;
     border-image-width: auto;
     border-image-slice: 100% 0% 100% 100%;
