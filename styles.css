@@ -4431,29 +4431,24 @@ body {
   }
 
   .textone {
-    width: 4em;
-    height: auto;
+    width: 56px;
+    height: 96px;
     border: 1px solid transparent;
-    margin-top: 0%;
+    margin-top: auto;
     margin-right: 0%;
     margin-left: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 10%;
   }
 
   .textone p{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: auto;
     height: auto;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
     border: 1px solid transparent;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-
-
   }
 
   .texttop {
@@ -4461,6 +4456,8 @@ body {
   }
 
   .numberdate {
+    word-break: break-all;
+    width: 10px;
     border-top: 1px solid transparent;
     border-right: 1px solid transparent;
     border-bottom: 1px solid black;
