@@ -4756,24 +4756,6 @@ body {
             drop-shadow(1px -1px black);
   }
 
-
-
-  .applemod {
-    color: black;
-    filter: drop-shadow(1px 1px white)
-            drop-shadow(-1px 1px white)
-            drop-shadow(1px -1px white)
-            drop-shadow(0 0 0.6em black);
-  }
-
-  .andrmod {
-    color: #A4C739;
-    filter: drop-shadow(1px 1px black)
-            drop-shadow(-1px 1px black)
-            drop-shadow(1px -1px black)
-            drop-shadow(0 0 0.6em black);
-  }
-
   .textfour ul {
     margin-top: 10%;
   }
@@ -4820,7 +4802,7 @@ body {
   .skillbase i {
     position: relative;
     right: -4px;
-    bottom: -2px;
+    bottom: -1px;
     margin: 0px;
     padding: 0px;
     font-size: 14px;
