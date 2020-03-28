@@ -4404,7 +4404,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     width: auto;
-    height: 70%;
+    height: auto;
   }
 
   .pageonephoto {
@@ -4567,7 +4567,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
+    background: linear-gradient(transparent 10%,rgba(255,255,255, 0.6), rgba(255,255,255, 0.4), transparent 97%),
                 url('https://upload.wikimedia.org/wikipedia/commons/3/35/Cib-xcode_%28CoreUI_Icons_v1.0.0%29.svg');
     background-size: auto, 30%;
     background-position: 40% 40%;
@@ -4578,7 +4578,7 @@ body {
     border-right: 1px ridge transparent;
     border-bottom: 4px ridge #b0bec5;
     border-left: 1px ridge transparent;
-    margin-top: 5px;
+    margin-top: 1%;
   }
 
   .topobj p {
@@ -4594,12 +4594,13 @@ body {
 
   .listlifeobj .bottomobj {
     width: auto;
+    height: 20%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
+    background: linear-gradient(transparent 10%,rgba(255,255,255, 0.6), rgba(255,255,255, 0.4), transparent 97%),
                 url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Laptop_%283470%29_-_The_Noun_Project.svg');
     background-size: auto, 50%;
     background-position: 40% 50%;
@@ -4607,7 +4608,7 @@ body {
     margin-top: auto;
     margin-left: 0%;
     margin-right: 0%;
-    margin-bottom: 3%;
+    margin-bottom: 0%;
   }
 
   .bottomobj p {
