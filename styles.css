@@ -4569,13 +4569,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
-                url('https://upload.wikimedia.org/wikipedia/commons/3/35/Cib-xcode_%28CoreUI_Icons_v1.0.0%29.svg');
-    background-size: auto, 30%;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/3/35/Cib-xcode_%28CoreUI_Icons_v1.0.0%29.svg');
+    background-size: 30%;
     background-position: 40% 40%;
     background-repeat: no-repeat;
     padding-top: 0%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     border-top: 1px ridge transparent;
     border-right: 1px ridge transparent;
     border-bottom: 4px ridge #b0bec5;
@@ -4587,7 +4586,7 @@ body {
     width: 86%;
     text-shadow: 2px 2px white;
     border: 1px solid transparent;
-    padding-top: 7%;
+    margin: 0%;
   }
 
   .nocheck {
@@ -4602,8 +4601,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
-                url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Laptop_%283470%29_-_The_Noun_Project.svg');
+    background: url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Laptop_%283470%29_-_The_Noun_Project.svg');
     background-size: auto, 50%;
     background-position: 40% 50%;
     background-repeat: no-repeat;
