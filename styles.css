@@ -3890,8 +3890,8 @@ body {
 
 
   .dragonhead {
-    width: 112px;
-    height: 200px;
+    width: 105px;
+    height: 188px;
     background: url('DragonHeadDefinitive.svg');
     background-size: 200%;
     background-repeat: no-repeat;
@@ -3913,8 +3913,8 @@ body {
     width: auto;
     height: 70%;
     border: 1px solid transparent;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 8%;
+    margin-bottom: 0%;
     overflow: hidden;
   }
 
