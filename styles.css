@@ -4390,7 +4390,7 @@ body {
     border-image-width: auto;
     border-image-slice: 100% 0% 100% 100%;
     border-radius: 100% 0% 100% 0% / 5% 95% 5% 95%;
-    background: linear-gradient(175deg, transparent 4%, #FAFAFA 12%, #FAFAFA, #FAFAFA 88%, transparent 96%);
+    background: linear-gradient(175deg, transparent 4%, #FAFAFA 10%, #FAFAFA, #FAFAFA 90%, transparent 96%);
     opacity: 0.9;
     margin: 0;
     font-family: 'Fondamento';
@@ -5056,7 +5056,7 @@ body {
     font-family: 'Fondamento';
     font-style: normal;
     font-weight: 700;
-    font-size: 205%;
+    font-size: 200%;
     display: flex;
     margin-top: auto;
     margin-right: 0%;
