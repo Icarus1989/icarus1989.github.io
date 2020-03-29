@@ -4390,7 +4390,7 @@ body {
     border-image-width: auto;
     border-image-slice: 100% 0% 100% 100%;
     border-radius: 100% 0% 100% 0% / 5% 95% 5% 95%;
-    background: linear-gradient(175deg, transparent 4%, #FAFAFA 12%, #FAFAFA, #FAFAFA 88%, transparent 96%);
+    background: linear-gradient(175deg, transparent 4%, #FAFAFA 16%, #FAFAFA, #FAFAFA 86%, transparent 96%);
     opacity: 0.9;
     margin: 0;
     font-family: 'Fondamento';
@@ -4430,7 +4430,7 @@ body {
     text-align: center;
     margin-top: 6%;
     margin-bottom: 0%;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
 
   }
@@ -4439,7 +4439,8 @@ body {
     width: 56px;
     height: 96px;
     border: 1px solid transparent;
-    margin-top: auto;
+    padding: 0%;
+    margin-top: 0%;
     margin-right: 0%;
     margin-left: 0%;
     margin-bottom: 10%;
@@ -4524,7 +4525,7 @@ body {
     border-image-width: auto;
     border-image-slice: 100% 0% 100% 100%;
     border-radius: 100% 0% 100% 0% / 2% 98% 2% 98%;
-    background: linear-gradient(175deg, transparent 2%, #FAFAFA 8%, #FAFAFA, #FAFAFA 94%, transparent 98%);
+    background: linear-gradient(175deg, transparent 2%, #FAFAFA 10%, #FAFAFA, #FAFAFA 94%, transparent 98%);
     opacity: 0.9;
     display: flex;
     margin-top: 2%;
