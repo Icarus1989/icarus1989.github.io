@@ -4475,8 +4475,9 @@ body {
 
   .littletitlelist p {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 10px;
+    text-indent: -9%;
   }
 
   .lifetitle {
@@ -4485,7 +4486,7 @@ body {
   }
 
   .lifetitleleft {
-    text-align: center;
+    margin-right: 33%;
   }
 
   .lifetitleright {
@@ -4525,7 +4526,7 @@ body {
     border-image-width: auto;
     border-image-slice: 100% 0% 100% 100%;
     border-radius: 100% 0% 100% 0% / 2% 98% 2% 98%;
-    background: linear-gradient(175deg, transparent 2%, #FAFAFA 10%, #FAFAFA, #FAFAFA 90%, transparent 98%);
+    background: linear-gradient(175deg, transparent 2%, #FAFAFA 8%, #FAFAFA, #FAFAFA 92%, transparent 98%);
     opacity: 0.9;
     display: flex;
     margin-top: 2%;
@@ -4544,7 +4545,7 @@ body {
   }
 
   .listlifeobj {
-    font-size: 18px;
+    font-size: 16px;
     margin-right: auto;
     margin-left: auto;
 
@@ -4555,7 +4556,7 @@ body {
   }
 
   .listlifeobj div p{
-    text-align: left;
+    text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
     border: 1px solid transparent;
@@ -4571,7 +4572,7 @@ body {
     justify-content: flex-start;
     background: url('https://upload.wikimedia.org/wikipedia/commons/3/35/Cib-xcode_%28CoreUI_Icons_v1.0.0%29.svg');
     background-size: 30%;
-    background-position: 40% 40%;
+    background-position: 42% 40%;
     background-repeat: no-repeat;
     padding-top: 0%;
     padding-bottom: 1%;
@@ -4603,7 +4604,7 @@ body {
     justify-content: flex-start;
     background: url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Laptop_%283470%29_-_The_Noun_Project.svg');
     background-size: 50%;
-    background-position: 40% 80%;
+    background-position: 42% 80%;
     background-repeat: no-repeat;
     margin-top: auto;
     margin-left: 0%;
@@ -4696,12 +4697,12 @@ body {
   }
 
   .aebracket {
-    text-indent: 38px;
+    text-indent: 42px;
     text-shadow: 1px 1px white;
   }
 
   .eve {
-    margin-left: 1%;
+    margin-left: 5%;
   }
 
   .textthree,
