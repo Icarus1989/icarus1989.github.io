@@ -4474,7 +4474,7 @@ body {
   }
 
   .littletitlelist p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-top: 10px;
   }
@@ -4602,13 +4602,13 @@ body {
     align-items: center;
     justify-content: flex-start;
     background: url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Laptop_%283470%29_-_The_Noun_Project.svg');
-    background-size: auto, 50%;
-    background-position: 40% 50%;
+    background-size: 50%;
+    background-position: 40% 80%;
     background-repeat: no-repeat;
     margin-top: auto;
     margin-left: 0%;
     margin-right: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 3%;
   }
 
   .bottomobj p {
@@ -4718,7 +4718,8 @@ body {
   }
 
   .textthree {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     text-align: center;
     border: 1px solid transparent;
   }
