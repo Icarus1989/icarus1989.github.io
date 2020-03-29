@@ -758,7 +758,7 @@ body {
       background: linear-gradient(175deg, transparent 4%, #FAFAFA 8%, #FAFAFA, #FAFAFA 92%, transparent 96%);
       opacity: 0.9;
       display: flex;
-      margin: 2%;
+      margin: 1%;
       flex-direction: column;
       align-items: center;
       justify-content: center;
@@ -798,7 +798,7 @@ body {
       margin-bottom: auto;
       letter-spacing: -1px;
     }
-    
+
     .listlifeobj {
       font-size: 18px;
       margin-right: auto;
@@ -4477,9 +4477,8 @@ body {
   }
 
   .littletitlelist p {
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
     text-indent: -9%;
   }
 
@@ -4489,11 +4488,12 @@ body {
   }
 
   .lifetitleleft {
+    margin-top: 10%;
     margin-right: 33%;
   }
 
   .lifetitleright {
-
+    margin-top: 1%;
   }
 
   .buttonscontainer {
