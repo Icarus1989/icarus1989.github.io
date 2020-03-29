@@ -894,7 +894,7 @@ body {
       flex-direction: row;
       align-items: center;
       justify-content: flex-start;
-      background: linear-gradient(rgba(255,255,255, 0.9), rgba(255,255,255, 0.6)),
+      background: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.5)),
                  url('https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg');
       background-repeat: no-repeat;
       background-size: 50%;
@@ -919,7 +919,6 @@ body {
     .textheart {
       width: 84%;
       border: 1px solid transparent;
-      padding-bottom: 5px;
       background: rgba(255,255,255, 0.4);
     }
 
