@@ -1912,7 +1912,7 @@ body {
        text-align: center;
        margin-top: 7%;
        margin-bottom: 0%;
-       font-size: 20px;
+       font-size: 18px;
        font-weight: 700;
 
      }
@@ -1962,8 +1962,9 @@ body {
      }
 
      .littletitlelist p {
-       font-size: 20px;
+       font-size: 16px;
        margin-top: 10px;
+       font-weight: 500;
      }
 
      .lifetitle {
