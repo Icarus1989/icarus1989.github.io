@@ -644,7 +644,7 @@ body {
       border: 1px solid transparent;
       margin-top: 0%;
       margin-right: 0%;
-      margin-left: 10%;
+      margin-left: 5%;
       margin-bottom: 20%;
     }
 
@@ -669,15 +669,15 @@ body {
 
     .numberdate {
       word-break: break-all;
-      width: 10px;
-      font-size: 18px;
+      width: 6px;
+      font-size: 16px;
       font-weight: 700;
       letter-spacing: -4px;
       border-top: 1px solid transparent;
       border-right: 1px solid transparent;
       border-bottom: 1px solid black;
       border-left: 1px solid transparent;
-      margin: 1px;
+      margin-bottom: 20%;
     }
 
     .littletitlelist p {
@@ -919,6 +919,7 @@ body {
     .textheart {
       width: 84%;
       border: 1px solid transparent;
+      padding-bottom: 5px;
       background: rgba(255,255,255, 0.4);
     }
 
