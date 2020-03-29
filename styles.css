@@ -4562,6 +4562,7 @@ body {
 
   .listlifeobj .topobj {
     width: auto;
+    height: 90px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -4594,7 +4595,7 @@ body {
 
   .listlifeobj .bottomobj {
     width: auto;
-    height: 20%;
+    height: 65px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
