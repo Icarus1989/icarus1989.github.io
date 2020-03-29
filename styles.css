@@ -826,8 +826,8 @@ body {
       justify-content: flex-start;
       background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
                   url('https://upload.wikimedia.org/wikipedia/commons/3/35/Cib-xcode_%28CoreUI_Icons_v1.0.0%29.svg');
-      background-size: auto, 25%;
-      background-position: 40% 40%;
+      background-size: auto, 20%;
+      background-position: 40% 38%;
       background-repeat: no-repeat;
       padding-top: 0%;
       padding-bottom: 7%;
