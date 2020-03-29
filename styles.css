@@ -776,13 +776,13 @@ body {
     .titlecontainer {
       border: 1px solid transparent;
       word-break: break-all;
-      width: 10px;
+      width: 12px;
       color: white;
       text-shadow: 2px 2px black, 0 0 0.8em white;
       font-family: 'Fondamento';
       font-style: normal;
       font-weight: 700;
-      font-size: 270%;
+      font-size: 260%;
       display: flex;
       justify-content: flex-end;
       margin-top: auto;
