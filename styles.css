@@ -4568,7 +4568,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(transparent 10%,rgba(255,255,255, 0.6), rgba(255,255,255, 0.4), transparent 97%),
+    background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
                 url('https://upload.wikimedia.org/wikipedia/commons/3/35/Cib-xcode_%28CoreUI_Icons_v1.0.0%29.svg');
     background-size: auto, 30%;
     background-position: 40% 40%;
@@ -4601,7 +4601,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(transparent 10%,rgba(255,255,255, 0.6), rgba(255,255,255, 0.4), transparent 90%),
+    background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
                 url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Laptop_%283470%29_-_The_Noun_Project.svg');
     background-size: auto, 50%;
     background-position: 40% 50%;
@@ -5063,6 +5063,10 @@ body {
     margin-left: 4%;
     margin-bottom: auto;
     opacity: 0.9;
+  }
+
+  .titlepos {
+    letter-spacing: -1%;
   }
 
   .descriptivetext {
