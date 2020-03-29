@@ -4573,7 +4573,7 @@ body {
     background-position: 40% 40%;
     background-repeat: no-repeat;
     padding-top: 0%;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     border-top: 1px ridge transparent;
     border-right: 1px ridge transparent;
     border-bottom: 4px ridge #b0bec5;
@@ -4615,7 +4615,7 @@ body {
     width: 86%;
     border: 1px solid transparent;
     text-shadow: 2px 2px white;
-    padding-bottom: 3%;
+    padding-bottom: 0%;
   }
 
   .devfricon {
