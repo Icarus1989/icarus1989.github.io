@@ -1961,7 +1961,7 @@ body {
        border-right: 1px solid transparent;
        border-bottom: 1px solid black;
        border-left: 1px solid transparent;
-       margin: 1px;
+       margin-bottom: 5%;
      }
 
      .littletitlelist p {
