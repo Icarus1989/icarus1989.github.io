@@ -2628,7 +2628,7 @@ body {
 
   .dragon {
     width: 33%;
-    height: 667px;
+    height: 690px;
     border: 1px solid transparent;
     margin-top: auto;
     margin-bottom: auto;
@@ -2642,15 +2642,15 @@ body {
 
 
   .dragonhead {
-    width: 112px;
-    height: 200px;
+    width: 108px;
+    height: 192px;
     background: url('DragonHeadDefinitive.svg');
     background-size: 200%;
     background-repeat: no-repeat;
     background-position: 50% 60%;
     border: 1px solid transparent;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
     position: fixed;
     bottom: 0%;
     right: 0%;
@@ -2663,10 +2663,10 @@ body {
 
   .dragonbody {
     width: auto;
-    height: 70%;
+    height: 72%;
     border: 1px solid transparent;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
     overflow: hidden;
   }
 
@@ -3191,20 +3191,23 @@ body {
   }
 
   .textone {
-    width: 4em;
-    height: auto;
+    width: 56px;
+    height: 96px;
     border: 1px solid transparent;
     margin-top: 0%;
     margin-right: 0%;
-    margin-left: 0%;
-    margin-bottom: 0%;
+    margin-left: 1%;
+    margin-bottom: 10%;
   }
 
   .textone p{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: auto;
     height: auto;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
     border: 1px solid transparent;
     position: relative;
     top: 50%;
@@ -3217,13 +3220,16 @@ body {
   .texttop {}
 
   .numberdate {
+    word-break: break-all;
+    width: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -3px;
     border-top: 1px solid transparent;
     border-right: 1px solid transparent;
     border-bottom: 1px solid black;
     border-left: 1px solid transparent;
-    margin: 1px;
-    font-size: 16px;
-    font-weight: 700;
+    margin-bottom: 20%;
   }
 
   .littletitlelist p {
@@ -3319,7 +3325,7 @@ body {
     background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
                 url('https://upload.wikimedia.org/wikipedia/commons/3/35/Cib-xcode_%28CoreUI_Icons_v1.0.0%29.svg');
     background-size: auto, 40%;
-    background-position: 40% 50%;
+    background-position: 40% 0%;
     background-repeat: no-repeat;
     padding-top: 0%;
     padding-bottom: 7%;
@@ -3803,8 +3809,8 @@ body {
 
   .titlecontainer {
     border: 1px solid transparent;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+    word-break: break-all;
+    width: 12px;
     color: white;
     text-shadow: 2px 2px black, 0 0 0.8em white;
     font-family: 'Fondamento';
@@ -3813,14 +3819,14 @@ body {
     font-size: 230%;
     display: flex;
     margin-top: auto;
-    margin-right: 0%;
+    margin-right: 3%;
     margin-left: 5%;
     margin-bottom: auto;
     opacity: 0.9;
   }
 
   .descriptivetext {
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 3%;
     margin-right: 1%;
     margin-left: 1%;
