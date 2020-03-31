@@ -3393,11 +3393,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background: linear-gradient(rgba(255,255,255, 0.9), rgba(255,255,255, 0.6)),
+    background: linear-gradient(rgba(255,255,255, 0.8), rgba(255,255,255, 0.5)),
                url('https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg');
     background-repeat: no-repeat;
-    background-size: 58%;
-    background-position: 36% 60%;
+    background-size: auto,  50%;
+    background-position: 50% 50% , 39% 50%;
     z-index: 2;
     padding-top: 2%;
     padding-bottom: 10%;
