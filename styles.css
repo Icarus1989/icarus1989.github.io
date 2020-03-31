@@ -2120,7 +2120,7 @@ body {
        background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.4)),
                    url('https://upload.wikimedia.org/wikipedia/commons/2/2f/Laptop_%283470%29_-_The_Noun_Project.svg');
        background-size: 100%, 40%;
-       background-position: 41% 48%;
+       background-position: 100%, 41% 48%;
        background-repeat: no-repeat;
        margin-top: 10%;
        margin-left: 0%;
