@@ -2155,7 +2155,7 @@ body {
        flex-direction: row;
        align-items: center;
        justify-content: flex-start;
-       background: linear-gradient(rgba(255,255,255, 0.5), rgba(255,255,255, 0.3)),
+       background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.3)),
                   url('https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg');
        background-repeat: no-repeat;
        background-size: 50%;
@@ -2180,7 +2180,7 @@ body {
      .textheart {
        width: 84%;
        border: 1px solid transparent;
-       background: rgba(255,255,255, 0.2);
+       background: rgba(255,255,255, 0.9);
      }
 
      .checkok {
