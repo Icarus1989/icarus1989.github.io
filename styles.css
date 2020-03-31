@@ -2158,8 +2158,8 @@ body {
        background: linear-gradient(rgba(255,255,255, 0.6), rgba(255,255,255, 0.6)),
                   url('https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg');
        background-repeat: no-repeat;
-       background-size: 40%;
-       background-position: 40% 65%;
+       background-size: auto, 40%;
+       background-position: 50% 50% , 40% 65%;
        z-index: 2;
        padding-top: 2%;
        padding-bottom: 2%;
