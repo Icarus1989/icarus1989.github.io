@@ -1965,7 +1965,7 @@ body {
      }
 
      .littletitlelist p {
-       font-size: 17px;
+       font-size: 18px;
        margin-top: 10px;
        font-weight: 600;
      }
@@ -2008,7 +2008,8 @@ body {
 
      .showtexttwo {
        width: 18em;
-       min-height: 50%;
+       min-height: 450px;
+       max-height: 50%;
        border: 1px solid white;
        border-image-source: url("WhiteFlametest4.png");
        border-image-outset: 14px 18px 18px 18px;
@@ -4451,7 +4452,7 @@ body {
     margin-top: 0%;
     margin-right: 0%;
     margin-left: 0%;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
   }
 
   .textone p{
