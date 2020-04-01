@@ -2008,7 +2008,7 @@ body {
 
      .showtexttwo {
        width: 18em;
-       min-height: 470px;
+       min-height: 50%;
        border: 1px solid white;
        border-image-source: url("WhiteFlametest4.png");
        border-image-outset: 14px 18px 18px 18px;
