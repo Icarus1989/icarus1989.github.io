@@ -46,7 +46,7 @@ body {
   align-items: center;
  }
 
-/* Begin Desktop Version */
+/* Begin Desktop Version - Tablet Landscape Version */
 
 @media only screen and (min-width: 961px){
 
@@ -1328,7 +1328,7 @@ body {
 
 /* End Desktop Version */
 
-/* Begin Tablet Version */
+/* Begin Tablet - Portrait Version */
 
 @media only screen and (min-width: 601px) and (max-width: 960px){
 
@@ -2591,7 +2591,7 @@ body {
 
 /* End Tablet Version */
 
-/* Begin Phablet Version */
+/* Begin Phablet - Portrait Version */
 
 @media only screen and (min-width: 411px) and (max-width: 600px){
 
@@ -3838,7 +3838,7 @@ body {
 
 /* End Phablet Version */
 
-/* Begin Mobile Version */
+/* Begin Mobile - Portrait Version */
 
 @media only screen and (max-width: 410px) {
 
