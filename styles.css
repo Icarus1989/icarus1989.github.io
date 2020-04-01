@@ -2008,7 +2008,7 @@ body {
 
      .showtexttwo {
        width: 18em;
-       min-height: 50%;
+       min-height: 45%;
        border: 1px solid transparent;
        border-image-source: url("WhiteFlametest4.png");
        border-image-outset: 14px 18px 18px 18px;
@@ -2265,7 +2265,7 @@ body {
      }
 
      .textfour {
-       font-size: 18px;
+       font-size: 17px;
      }
 
      .checkmod {
