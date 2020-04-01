@@ -1868,7 +1868,7 @@ body {
 
      .showtext {
        width: 18em;
-       height: 10.5em;
+       height: 18%;
        border: 1px solid white;
        border-image-source: url("WhiteFlametest4.png");
        border-image-outset: 14px 20px 20px 20px;
@@ -2008,8 +2008,8 @@ body {
 
      .showtexttwo {
        width: 18em;
-       min-height: 45%;
-       border: 1px solid transparent;
+       min-height: 50%;
+       border: 1px solid white;
        border-image-source: url("WhiteFlametest4.png");
        border-image-outset: 14px 18px 18px 18px;
        border-image-repeat: space;
