@@ -1868,7 +1868,7 @@ body {
 
      .showtext {
        width: 18em;
-       height: 18%;
+       height: 168px;
        border: 1px solid white;
        border-image-source: url("WhiteFlametest4.png");
        border-image-outset: 14px 20px 20px 20px;
@@ -2008,7 +2008,7 @@ body {
 
      .showtexttwo {
        width: 18em;
-       min-height: 450px;
+       min-height: 420px;
        max-height: 50%;
        border: 1px solid white;
        border-image-source: url("WhiteFlametest4.png");
@@ -2280,12 +2280,7 @@ body {
      }
 
      .textfour ul {
-       position: relative;
-       top: 50%;
-       left: 50%;
-       -moz-transform: translateX(-50%) translateY(-50%);
-       -webkit-transform: translateX(-50%) translateY(-50%);
-       transform: translateX(-50%) translateY(-50%);
+
      }
 
      .textfour ul li p{
