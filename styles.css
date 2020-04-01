@@ -4760,7 +4760,7 @@ body {
     opacity: 0.7;
     position: relative;
     top: 100%;
-    left: -30%;
+    left: -28%;
     filter: drop-shadow(2px 1px black)
             drop-shadow(-1px 1px black)
             drop-shadow(1px -1px black);
@@ -4787,6 +4787,7 @@ body {
     display: flex;
     justify-content: center;
     border: 1px solid transparent;
+    align-items: center;
   }
 
   .skillcontainer {
