@@ -2008,7 +2008,7 @@ body {
 
      .showtexttwo {
        width: 18em;
-       height: 50%;
+       min-height: 470px;
        border: 1px solid white;
        border-image-source: url("WhiteFlametest4.png");
        border-image-outset: 14px 18px 18px 18px;
@@ -2290,7 +2290,7 @@ body {
      .textfour ul li p{
        font-weight: 700;
        border: 1px solid transparent;
-       margin-top: 5px;
+       margin-top: 3px;
        margin-left: 6px;
        margin-bottom: 3px;
        color: #3E4551;
@@ -3225,12 +3225,10 @@ body {
     width: 6px;
     font-size: 15px;
     font-weight: 700;
-    letter-spacing: -3px;
     border-top: 1px solid transparent;
     border-right: 1px solid transparent;
     border-bottom: 1px solid black;
     border-left: 1px solid transparent;
-    margin-bottom: 20%;
   }
 
   .littletitlelist p {
@@ -3274,8 +3272,7 @@ body {
 
   .showtexttwo {
     width: 11em;
-    min-height: 60%;
-    max-height: 383px;
+    min-height: 420px;
     border: 1px solid white;
     border-image-source: url("WhiteFlametest4.png");
     border-image-outset: 6px 10px 10px 10px;
@@ -3350,6 +3347,7 @@ body {
 
   .listlifeobj .bottomobj {
     width: auto;
+    height: 20%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -3360,7 +3358,7 @@ body {
     background-size: auto, 60%;
     background-position: 40% 60%;
     background-repeat: no-repeat;
-    margin-top: 20%;
+    margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
     margin-bottom: 0%;
@@ -3525,7 +3523,7 @@ body {
   .textfour ul li p{
     font-weight: 700;
     border: 1px solid transparent;
-    margin-top: 6px;
+    margin-top: 4px;
     margin-left: 3px;
     margin-bottom: 3px;
     color: #3E4551;
