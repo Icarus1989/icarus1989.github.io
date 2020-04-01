@@ -2009,7 +2009,7 @@ body {
      .showtexttwo {
        width: 18em;
        min-height: 50%;
-       border: 1px solid white;
+       border: 1px solid transparent;
        border-image-source: url("WhiteFlametest4.png");
        border-image-outset: 14px 18px 18px 18px;
        border-image-repeat: space;
@@ -3273,9 +3273,9 @@ body {
   .showtexttwo {
     width: 11em;
     min-height: 420px;
-    border: 1px solid white;
+    border: 1px solid transparent;
     border-image-source: url("WhiteFlametest4.png");
-    border-image-outset: 6px 10px 10px 10px;
+    border-image-outset: 7px 11px 12px 11px;
     border-image-repeat: space;
     border-image-width: auto;
     border-image-slice: 100% 0% 100% 100%;
